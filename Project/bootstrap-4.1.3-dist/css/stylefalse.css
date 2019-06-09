@@ -1,0 +1,390 @@
+.top{
+	height: 62px;
+	background-color: #008848;
+	padding-top: 36px;
+	padding-left: 972px;
+}
+.top p{
+	color: white;
+	padding-right: 20px;
+	
+}
+.top img{
+	margin-top: 4px;
+	padding-right: 4px;
+}
+header{
+	width: 1900px;
+}
+.menu{
+	padding-left: 366px;
+	height: 78px;
+	color:#009154;	
+}
+.menu p{
+	font-size: 14px;
+}
+.meu img{
+	padding-left: 150px;
+}
+.menu_content{
+	padding-top: 30px;
+	padding-left: 100px;
+}
+.menu_content img{
+	padding-left: 40px;
+	margin-top: 3px;
+}
+.menu{
+
+}
+/* container*/
+.container{
+	width: 1170px;
+	margin-left: 363px;
+}
+.haha{
+	font-size: 30px;
+	font-family: Sabler Titling Ext Light otf;
+	font-weight: lighter;
+	color: #248b5c;
+	text-align: center;
+}
+.div_haha{
+	width: 100%;	
+}
+.ngang{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 23px;
+}
+.p_content p{
+	font-size: 15px;
+	padding-bottom: 20px;
+}
+.p_content a{
+	color:#027a4c; 
+}
+/* BUTTON */
+.button1{
+	width: 100%;
+	
+}
+.content_button1{
+	width: 170px;
+	height: 39px;
+	align-content: center;
+	border: 1px solid #008848;
+	border-radius: 35px ;
+	padding-top: 9px;
+	padding-left: 13px;
+	margin-left: 36%;
+	margin-right: 2%;
+}
+.content_button1 a{
+	color:#008848;
+	text-decoration: none;
+}
+.content_button2 a{
+	color: white;
+	text-decoration: none;
+}
+.content_button2{
+	width: 170px;
+	height: 39px;
+	background-color: #008848;
+	border-radius: 35px;
+	padding-top: 9px;
+	padding-left: 29px;
+
+}
+/* content_2 */
+.content_2{
+	margin-top: 96px;
+	padding-top: 96px;
+	background:url('../img/duan.jpg');
+	width: 1900px;
+	height: 1100px;
+}
+.content_2 p{
+	text-align: center;
+}
+.hihi{
+	
+	height: 345px;
+	margin-right: 5%;
+	width: 20%;
+	
+}
+.hihi:hover{
+	box-shadow: -8px 8px 28px -8px rgba(0,0,0,0.75);
+	color: #d6af4a;
+}
+.hihi a{
+	color: black;
+	text-decoration: none;
+}
+.hihi a:hover .top1B_content2,.hihi a:hover .top4B_content2{
+	color: #d6af4a;
+}
+.image{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background: transparent url('../img/readmore.jpg') no-repeat;
+}
+.hihi a:hover .image{
+	background:url('../img/readmore2.jpg') no-repeat;
+}
+.kaka{
+	width: 100%;
+	padding:15px 10px;
+	background-color: white;
+}
+.top1_content2{
+	color: #d6af4a;
+}
+.top2_content2{
+	color: #a0a0a0;
+	font-size: 12px;
+}
+.top4_content2{
+	color: #d6af4a;
+	text-decoration: none;
+}
+.top1B_content2,
+.top4B_content2{
+	color: #008747;
+}
+.space{
+	width: 100%;
+	
+	margin-top: 60px;
+}
+
+.huy{
+	margin-bottom: 35px;
+}
+.huy2{
+	text-align: center;
+	width: 100%;
+}
+/* button2*/
+.button2{
+	width: 100%;
+}
+.button2_content1,.button2_content2,.button2_content3{
+	padding-top: 8px;
+	height: 39px;
+	border: 1px solid #008848;
+	border-radius: 35px ;
+	width: 87%;
+	padding-left: 20px;
+	background-color: #008848;
+}
+.col4{
+	margin: 0;
+	padding: 0;
+}
+.button2_content1 img ,.button2_content2 img ,.button2_content3 img {
+	padding-right: 12px;
+}
+.button2_content1 a,
+.button2_content2 a,
+.button2_content3 a{
+	color:white;
+	text-decoration: none;
+	font-size: 12px;
+
+}
+.button2_p{
+	width: 85%;
+	margin-left: 25px;
+	margin-top: 15px;
+}
+.button2_p p{
+	margin: 0;
+}
+.button2_p a{
+	color: black;
+	font-family: Segoe UI;
+	text-decoration: none;
+}
+.button2_p a:hover{
+	color: #008848;
+	font-family: Segoe UI;
+	text-decoration: none;
+}
+.button2_p img{
+	margin-right: 5px;
+}
+.baoquanh{
+	width: 100%;
+	height: 430px;
+}
+/*goilai*/
+.goilai{
+	width: 1900px;
+	background:url('../img/goilai.jpg');	
+	height: 483px;
+}
+.register{
+	color: white;
+	text-align: center;
+	padding-top: 30px;
+	font-size: 36px;
+	font-family: 
+}
+.register_p{
+	margin: 0;
+	text-align: center;
+	color: #ffffff;
+	font-family: Segoe UI regular;	
+}
+.goilai_button{
+	border-radius: 35px ;
+	height: 34px;
+	width: 250px;
+	border: 1px solid white;
+	padding-top: 6px;
+	padding-left: 15px;
+	margin: 0;
+	float: left;
+	margin-right: 10px;
+}
+.button_n{
+	margin-top: 10px;
+	padding-left: 37%;
+}
+/* Chrome, Opera, Safari */
+::-webkit-input-placeholder {
+  color: white;
+}
+
+.goilai_button input{
+	background-color: unset;
+	color: white;
+	border: none;	
+}
+.goilai_button input:hover{
+	border: 0;
+}
+.submit{
+	margin-top: 50px;
+	position: absolute;
+	width: 100px;
+	background-color: #008847;
+	margin-left: 67%;
+	height: 28px;
+	padding-top: 2px;
+	padding-left: 19px;
+	border: 1px solid white;
+	border-radius: 30px;
+}
+.submit input{
+	border: none;
+	background-color: #008847;
+	color: white;
+}
+.doitac_p{
+	margin: 0;
+	text-align: center;
+	margin-left: 15%;
+}
+.doitac img{
+	margin-bottom: 30px;
+}
+.doitac_p1{
+	text-align: center;
+	margin-left: 27%;
+	margin-bottom: 35px;
+}
+.doitac_button{
+	width: 170px;
+	height: 35px;
+	
+	margin-left: 44%;
+	padding-top: 7px;
+	padding-left: 16px;
+	border-radius: 30px;
+	border: 1px solid #008847;
+}
+.doitac_button a{
+	color: #008847;
+	text-decoration: none;
+}
+.doitac_button a:hover{
+	color: #008847;
+	text-decoration: none;
+}
+.doitac{
+	height: 740px;
+}
+/* footer*/
+.footer{
+	background-color: #008847;
+	position: relative;
+	height: 240px;
+	width: 1900px;
+}
+.col_footer{
+	width: 22%;
+	margin-right: 30px;
+	background-color: #008847;
+}
+.col_footer p,.col_footer1 p{
+	color: white;
+	font-family: Segoe UI;
+}
+.footer_top{
+	font-size: 20px;
+}
+.col_footer1{
+	width: 24%;
+	background-color: #008847;
+}
+.footer_img{
+	width: 100%;
+	height: 59px;
+}
+.footer_img img{
+	float: left;
+	margin-right: 5px;
+}
+.footer_img p{
+	color: white;
+}
+.footer5 img{
+	position: absolute;
+	margin-top: -90px;
+	margin-left:78%;
+}
+.last{
+	background-color: #007a40;
+	width: 1900px;
+	height: 50px;
+	padding-top: 9px;
+}
+.last1{
+	margin-left: 19%;
+}
+.last2{
+	margin-left: 30%;
+	margin-right: 8.73%;
+}
+.last3{
+	height: 40px;
+
+}
+
+/* index2 //////////////////////////////////////////////////////////////////////////*/
+.index2_menu{
+	height: 34px;
+	width: 1900px;
+	background-color: #f3f3f3;
+}
+.index2_duan{
+	background: url('../img2/duan.jpg');
+	height: 506px;
+	width: 1900px;
+}

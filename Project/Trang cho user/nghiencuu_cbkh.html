@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<link rel="stylesheet" href="../bootstrap-4.1.3-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+	    crossorigin="anonymous">
+	<link rel="stylesheet" href="../css/style3.css">
+
+	<link rel="stylesheet" href="../css/style2.css">
+</head>
+<body>
+	<div class="head_menu">
+		 <div class="head-nav input ">
+		 	<div class="row d-flex justify-content-end ">
+		 		<div class="pr-4 mt-3 a">
+		 			<a href="">SINH VIÊN</a>
+			 		<a href="">CÁN BỘ</a>
+			 		<img class="head_anh" src="../img/vietnam.jpg" alt="">
+			 		<img class="head_anh" src="../img/tienganh.jpg" alt="">
+		 		</div>
+		 		
+		  		<form class="form-inline">
+						<div class="col p-0 m-0 pr-4 mt-3">
+							<div class="input-group ">
+								<input style="height: 29px;width: 130px;background-color: #EBEBEB!important;color: #6A6A6A;" type="text" class="form-control bg-dark text-white" placeholder="Tìm kiếm">
+								<div class="input-group-prepend">
+									<div style="height: 29px;width: 30px;background-color: #DDDDDD!important;border-top-right-radius: 3px;border-bottom-right-radius: 3px;" class="input-group-text d-flex justify-content-center">
+										<i style="" class="fas fa-search fa-0x"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+				</form>
+		 	</div>
+		 	
+	  	</div>
+		<nav class="navbar navbar-expand-lg ">
+		  <a class="navbar-brand" href="#"><img style="margin-top: 1rem;" src="../img/logo.png"></a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="color: white;font-size: 2rem;" >
+		    <i class="fas fa-align-justify"></i>
+		  </button>
+		  
+		  <div class="d-flex justify-content-end top_head pr-4">
+		  		
+			  <div class="collapse navbar-collapse" id="navbarNav">
+			    <ul class="navbar-nav d-flex justify-content-end" style="width: 100%;">
+			    	
+			    <i class="fa fa-home fa-2x" aria-hidden="true" style=""></i>
+			      <li class="nav-item active">
+			      	<div id="accordion">
+
+				        <a class="nav-link default" href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">tuyển sinh <i class="fas fa-caret-down"></i></a>
+						<ul class="ul_con hidden_ul_con">
+							<li><a class="nav-link" href="#">Nghiên cứ sinh</a></li>
+							<li><a class="nav-link" href="#">Cao học</a></li>
+							<li><a class="nav-link" href="#">Đại học</a></li>
+							<li><a class="nav-link" href="#">Liên thông</a></li>
+							<li><a class="nav-link" href="#">Văn bằng 2</a></li>
+							<li><a class="nav-link" href="#">Cao đẳng</a></li>
+							<li><a class="nav-link" href="#">Vừa học vừa làm</a></li>
+						</ul>
+						<ul class="hidden" id="collapseOne" onclick="huy()" class="collapse"  data-parent="#accordion">
+							<li><a class="nav-link" href="#">Nghiên cứ sinh</a></li>
+							<li><a class="nav-link" href="#">Cao học</a></li>
+							<li><a class="nav-link" href="#">Đại học</a></li>
+							<li><a class="nav-link" href="#">Liên thông</a></li>
+							<li><a class="nav-link" href="#">Văn bằng 2</a></li>
+							<li><a class="nav-link" href="#">Cao đẳng</a></li>
+							<li><a class="nav-link" href="#">Vừa học vừa làm</a></li>
+						</ul>
+					</div>
+			      </li>
+
+			      <li class="nav-item active">
+			      	<div id="accordion">
+
+				        <a class="nav-link default" href="#" data-toggle="collapse" data-target="#collapseTwo" >Tra cứu <i class="fas fa-caret-down"></i></a>
+						<ul class="ul_con hidden_ul_con">
+							<li><a class="nav-link" href="#">Kết quả trúng tuyển</a></li>
+							<li><a class="nav-link" href="#">Kết quả nhập học</a></li>
+						</ul>
+						<ul class="hidden" id="collapseTwo" onclick="huy()" class="collapse" data-parent="#accordion">
+							<li><a class="nav-link" href="#">Kết quả trúng tuyển</a></li>
+							<li><a class="nav-link" href="#">Kết quả nhập học</a></li>
+						</ul>
+					</div>
+			      </li>
+
+			      <li class="nav-item active">
+			      	<div id="accordion">
+
+				        <a class="nav-link default" href="#" data-toggle="collapse" data-target="#collapseThree" >đăng ký xét tuyển<i class="fas fa-caret-down"></i></a>
+						<ul class="ul_con hidden_ul_con">
+							<li><a class="nav-link" href="#">Đại học</a></li>
+							<li><a class="nav-link" href="#">Cao đẳng</a></li>
+							<li><a class="nav-link" href="#">Liên thông,văn bằng 2</a></li>
+							<li><a class="nav-link" href="#">Sau đại học</a></li>
+						</ul>
+						<ul class="hidden" id="collapseThree" onclick="huy()" class="collapse" data-parent="#accordion">
+							<li><a class="nav-link" href="#">Đại học</a></li>
+							<li><a class="nav-link" href="#">Cao đẳng</a></li>
+							<li><a class="nav-link" href="#">Liên thông,văn bằng 2</a></li>
+							<li><a class="nav-link" href="#">Sau đại học</a></li>
+						</ul>
+					</div>
+			      </li>
+
+			      <li class="nav-item active">
+			      	<div id="accordion">
+
+				        <a class="nav-link default" href="#">MẪU PHIẾU ĐKXT<i class="fas fa-caret-down"></i></a>
+						
+					</div>
+			      </li>
+
+			      <li class="nav-item active">
+			      	<div id="accordion">
+
+				        <a class="nav-link default" href="#" >LIÊN HỆ<i class="fas fa-caret-down"></i></a>
+						
+					</div>
+			      </li>
+			    </ul>
+			  </div>
+		  </div>
+		 
+		</nav>
+	</div>
+
+<!-- content -->
+
+<div class="nghiencuu">
+	<div class="container">
+		<div class="row head_a" style="">
+					<a href="">Trang chủ</a>
+					<span>></span>
+					<a href="">Nghiên cứu khoa học </a>
+					<span>></span>
+					<a href="">Công bố khoa học</a>
+					
+				</div>
+	<div class="row" style="margin-bottom: 30px;">
+		<div class="col-md-8">
+			<div class="row" style="border-bottom:1px solid #f2dbdb;margin-bottom: 1rem;">
+				<h4 style="font-size: 130%;">Đề tài khoa học</h4>
+			</div>
+			<div class="row">
+				<div class="head mt-4 mb-4" style="width: 100%;">
+					<h5 class="">ĐANG CẬP NHẬT DỮ LIỆU...</h5>
+				</div>
+			</div>
+			<div class="row xanh">
+				<h4 style="font-size: 130%;color: white">Lĩnh vực nghiên cứu</h4>
+				<select class="form-control" id="dropdownList">
+					<option value="0">--Chọn--</option>
+					<option value="1">Tất cả</option>
+					<option value="2">Điện, điện tử,tự động hóa</option>
+					<option value="3">Nặng lượng</option>
+					<option value="4">Kinh tế,quản lý</option>
+					<option value="5">Công nghệ thông tin,điện tử viễn thông</option>
+				</select>
+			</div>
+			<div class="row hidden result_option_1">
+				<table width="100%" style="margin-top: 10px;margin-bottom: 30px;">
+					<tr style="background-color: #f8f8f8;">
+						<td class="trai"><b>tên bài báo</b></td>
+						<td><b>Năm nghiệm thu</b></td>
+					</tr>
+					<tr style="background-color: #ebebeb;height: 70px;">
+						<td class="trai"><a style="text-decoration: none;" href="https://onlinelibrary.wiley.com/doi/abs/10.1002/app.46095">1. Effect of POSS‐grafted titanium dioxide on the electrical and thermal properties of LDPE/TiO2 polymer nanocomposite </a><br>
+						<em>Tác giả: Tung Tran Anh; Michel Fréchette; Éric David; René Veillette; Patricia Moraille </em>
+						<em>Tên tạp chí: Journal of Applied Polymer Science - ISSN: 0021-8995 E-ISSN: 1097-4628</em>
+						</td>
+						<td>2018</td>
+					</tr>
+					<tr style="background-color: #f8f8f8;height: 70px;" >
+						<td class="trai"><a style="text-decoration: none;" href="https://www.mdpi.com/1996-1073/11/11/2890">2. Driven Primary Regulation for Minimum Power Losses Operation in Islanded Microgrids </a>
+						<em>Tác giả: Quynh T.T Tran, Maria Luisa Di Silvestre, Eleonora Riva Sanseverino, Gaetano Zizzo and Thanh Nam Pham </em>
+						<em>Tên tạp chí: Energies - ISSN: 1996-1073 E-ISSN: 1996-1073</em>
+						</td>
+						<td>2016</td>
+					</tr>
+					<tr style="background-color: #ebebeb;height: 70px;">
+						<td class="trai"><a style="text-decoration: none;" href="https://link.springer.com/article/10.1007/s11664-016-5236-4">3. Fabrication of Cu(In,Ga)(S,Se)2 solar cells by solution methods </a><br>
+						<em>Tác giả: Pham Anh TuanVu Ngoc PhanTran Duc Huy Dang Viet Anh DungNguyen Xuan QuangNguyen Duy Cuong </em>
+						<em>Tên tạp chí: Journal of Electronic Material - ISSN: 0361-5235 E-ISSN: 1543-186X; Vol.46, No.6, pp.3453-5235</em>
+						</td>
+						<td>2017</td>
+					</tr>
+					<tr style="background-color: #f8f8f8;height: 70px;" >
+						<td class="trai"><a style="text-decoration: none;" href="https://www.mdpi.com/1996-1073/11/11/2890">4. Maxwell–Wagner Effect in Multi-Layered Dielectrics: Interfacial Charge Measurement and Modelling </a>
+						<em>Tác giả: Thi Thu Nga Vu, Gilbert Teyssedre ,OrcID, Séverine Le Roy, and Christian Laurent </em>
+						<em>Tên tạp chí: Technologies - ISSN: 2227-7080 E-ISSN: 2227-7080; Vol 5, Issue 2, 2017, pp.1-15</em>
+						</td>
+						<td>2016</td>
+					</tr>
+				</table>
+			</div>
+			<div class="row hidden result_option_2">
+				<table width="100%" style="margin-top: 10px;margin-bottom: 30px;">
+					<tr style="background-color: #f8f8f8;">
+						<td class="trai"><b>tên bài báo</b></td>
+						<td><b>Năm nghiệm thu</b></td>
+					</tr>
+					<tr style="background-color: #ebebeb;">
+						<td class="trai"><a style="text-decoration: none;" href="https://www.mdpi.com/1996-1073/11/11/2890">2. Driven Primary Regulation for Minimum Power Losses Operation in Islanded Microgrids </a>
+						<em>Tác giả: Quynh T.T Tran, Maria Luisa Di Silvestre, Eleonora Riva Sanseverino, Gaetano Zizzo and Thanh Nam Pham </em>
+						<em>Tên tạp chí: Energies - ISSN: 1996-1073 E-ISSN: 1996-1073</em>
+						</td>
+						<td>2016</td>
+					</tr>
+				</table>
+			</div>
+			<div class="row hidden result_option_3">
+				<table width="100%" style="margin-top: 10px;margin-bottom: 30px;">
+					<tr style="background-color: #f8f8f8;">
+						<td class="trai"><b>tên bài báo</b></td>
+						<td><b>Năm nghiệm thu</b></td>
+					</tr>
+					<tr style="background-color: #ebebeb;">
+						<td class="trai"><a style="text-decoration: none;" href="https://onlinelibrary.wiley.com/doi/abs/10.1002/app.46095">1. Effect of POSS‐grafted titanium dioxide on the electrical and thermal properties of LDPE/TiO2 polymer nanocomposite </a><br>
+						<em>Tác giả: Tung Tran Anh; Michel Fréchette; Éric David; René Veillette; Patricia Moraille </em>
+						<em>Tên tạp chí: Journal of Applied Polymer Science - ISSN: 0021-8995 E-ISSN: 1097-4628</em>
+						</td>
+						<td>2018</td>
+					</tr>
+					
+				</table>
+			</div>
+			<div class="row hidden result_option_4">
+				<table width="100%" style="margin-top: 10px;margin-bottom: 30px;">
+					<tr style="background-color: #f8f8f8;">
+						<td class="trai"><b>tên bài báo</b></td>
+						<td><b>Năm nghiệm thu</b></td>
+					</tr>
+					<tr style="background-color: #ebebeb;" >
+						<td class="trai"><a style="text-decoration: none;" href="https://link.springer.com/article/10.1007/s11664-016-5236-4">3. Fabrication of Cu(In,Ga)(S,Se)2 solar cells by solution methods </a><br>
+						<em>Tác giả: Pham Anh TuanVu Ngoc PhanTran Duc Huy Dang Viet Anh DungNguyen Xuan QuangNguyen Duy Cuong </em>
+						<em>Tên tạp chí: Journal of Electronic Material - ISSN: 0361-5235 E-ISSN: 1543-186X; Vol.46, No.6, pp.3453-5235</em>
+						</td>
+						<td>2017</td>
+					</tr>
+					
+				</table>
+			</div>
+			<div class="row hidden result_option_5">
+				<table width="100%" style="margin-top: 10px;margin-bottom: 30px;">
+					<tr style="background-color: #f8f8f8;">
+						<td class="trai"><b>tên bài báo</b></td>
+						<td><b>Năm nghiệm thu</b></td>
+					</tr>
+					<tr style="background-color: #ebebeb;" >
+						<td class="trai"><a style="text-decoration: none;" href="https://www.mdpi.com/1996-1073/11/11/2890">4. Maxwell–Wagner Effect in Multi-Layered Dielectrics: Interfacial Charge Measurement and Modelling </a>
+						<em>Tác giả: Thi Thu Nga Vu, Gilbert Teyssedre ,OrcID, Séverine Le Roy, and Christian Laurent </em>
+						<em>Tên tạp chí: Technologies - ISSN: 2227-7080 E-ISSN: 2227-7080; Vol 5, Issue 2, 2017, pp.1-15</em>
+						</td>
+						<td>2016</td>
+					</tr>
+					
+				</table>
+			</div>
+			<div class="row pagina hidden">
+				<nav aria-label="Page navigation example">
+				  <ul class="pagination">
+				    <li class="page-item">
+				      <a class="page-link" href="#" aria-label="Previous">
+				        <span aria-hidden="true">&laquo;</span>
+				        <span class="sr-only">Previous</span>
+				      </a>
+				    </li>
+				    <li class="page-item"><a class="page-link" href="#">1</a></li>
+				    
+				    <li class="page-item">
+				      <a class="page-link" href="#" aria-label="Next">
+				        <span aria-hidden="false">&raquo;</span>
+				        <span class="sr-only " >Next</span>
+				      </a>
+				    </li>
+				  </ul>
+				</nav>
+			</div>
+		</div>
+		<div class="col-md-4 phai_nghiencuu">
+			<div class="row">
+				<h3>Tuyển sinh</h3>
+			</div>
+			<div class="row">
+				<ul style="list-style-type: none;width: 100%;" >
+					<li ><a  href="nghiencuu_detaikhoahoc.html">Đề tài khoa học</a></li>
+					<li><a style="font-weight: bold;border-left: 2px solid #C40333;padding-left: 0.5rem;" href="nghiencuu_cbkh.html">Công bố khoa học</a></li>
+					<li><a href="nghiencuu_bmkh.html">Các biểu mẫu khoa học</a></li>
+					
+				</ul>
+			</div>
+			
+		</div>
+	</div>
+	</div>
+</div>
+
+<!-- end content -->
+
+<footer><!-- footer -->
+	<div class="row">
+		<div class="col-md-3" >
+			<img src="../img/logo.png" alt="" style="width: 100%;">
+			<p>Tổng lượt truy cập:1.534.959</p>
+			<p>Đang online:180</p>
+		</div>
+		<div class="col-md-4" >
+			<h4>ĐẠI HỌC ĐIỆN LỰC</h4>
+			<p>CS1:Hoàng Quốc Việt,Hà Nội</p>
+			<p style="margin-bottom: 1rem;">CS2:Tân Minh,Sóc Sơn,Hà Nội</p>
+			<p>ĐT TUYỂN SINH:(024) 2218 5607</p>
+			<p>ĐT Phòng HCQT:(024) 2218 5607</p>
+			<p>FAX:(024) 3836 2065</p>
+			<p>Email:info@epu.edu.vn</p>
+		</div>
+		<div class="col-md-5">
+			<h4>ĐƠN VỊ TRỰC THUỘC</h4>
+			<p>KHOA ĐÀO TẠO</p>
+			<p>PHÒNG BAN</p>
+			<p>TRUNG TÂM</p>
+			<div style="display: flex;">
+				<i class="fab fa-facebook-f"></i>
+				<i class="fab fa-twitter"></i>
+				<i class="fab fa-youtube"></i>
+			</div>
+		</div>
+	</div>
+</footer>
+<div class="end">
+	<div class="row">
+		<span>© 2006-2019 Đại Học Điện Lực.Đã đăng ký bản quyền.</span>
+		<a href="">| Điều khoản &amp; Điều kiện</a>
+		<a href="">Chính sách bảo mật</a>
+		<a href="">Sơ đồ trang</a>
+		<a href="">RSS</a>
+	</div>
+</div>
+
+<!--- Script Source Files -->
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script src="../bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+<script src="../js/main.js"></script>
+
+<!--- End of Script Source Files -->
+</body>
+</html>

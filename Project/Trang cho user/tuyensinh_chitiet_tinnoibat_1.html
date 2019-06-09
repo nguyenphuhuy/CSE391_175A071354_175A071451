@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<link rel="stylesheet" href="../bootstrap-4.1.3-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+	    crossorigin="anonymous">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/style2.css">
+</head>
+<body>
+	<div class="head_menu">
+		 <div class="head-nav input ">
+		 	<div class="row d-flex justify-content-end ">
+		 		<div class="pr-4 mt-3 a">
+		 			<a href="">SINH VIÊN</a>
+			 		<a href="">CÁN BỘ</a>
+			 		<img class="head_anh" src="../img/vietnam.jpg" alt="">
+			 		<img class="head_anh" src="../img/tienganh.jpg" alt="">
+		 		</div>
+		 		
+		  		<form class="form-inline">
+						<div class="col p-0 m-0 pr-4 mt-3">
+							<div class="input-group ">
+								<input style="height: 29px;width: 130px;background-color: #EBEBEB!important;color: #6A6A6A;" type="text" class="form-control bg-dark text-white" placeholder="Tìm kiếm">
+								<div class="input-group-prepend">
+									<div style="height: 29px;width: 30px;background-color: #DDDDDD!important;border-top-right-radius: 3px;border-bottom-right-radius: 3px;" class="input-group-text d-flex justify-content-center">
+										<i style="" class="fas fa-search fa-0x"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+				</form>
+		 	</div>
+		 	
+	  	</div>
+		<nav class="navbar navbar-expand-lg ">
+		  <a class="navbar-brand" href="#"><img style="margin-top: 1rem;" src="../img/logo.png"></a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="color: white;font-size: 2rem;" >
+		    <i class="fas fa-align-justify"></i>
+		  </button>
+		  
+		  <div class="d-flex justify-content-end top_head pr-4">
+		  		
+			  <div class="collapse navbar-collapse" id="navbarNav">
+			    <ul class="navbar-nav d-flex justify-content-end" style="width: 100%;">
+			    	
+			    <i class="fa fa-home fa-2x" aria-hidden="true" style=""></i>
+			      <li class="nav-item active">
+			      	<div id="accordion">
+
+				        <a class="nav-link default" href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">tuyển sinh <i class="fas fa-caret-down"></i></a>
+						<ul class="ul_con hidden_ul_con">
+							<li><a class="nav-link" href="#">Nghiên cứ sinh</a></li>
+							<li><a class="nav-link" href="#">Cao học</a></li>
+							<li><a class="nav-link" href="#">Đại học</a></li>
+							<li><a class="nav-link" href="#">Liên thông</a></li>
+							<li><a class="nav-link" href="#">Văn bằng 2</a></li>
+							<li><a class="nav-link" href="#">Cao đẳng</a></li>
+							<li><a class="nav-link" href="#">Vừa học vừa làm</a></li>
+						</ul>
+						<ul class="hidden" id="collapseOne" onclick="huy()" class="collapse"  data-parent="#accordion">
+							<li><a class="nav-link" href="#">Nghiên cứ sinh</a></li>
+							<li><a class="nav-link" href="#">Cao học</a></li>
+							<li><a class="nav-link" href="#">Đại học</a></li>
+							<li><a class="nav-link" href="#">Liên thông</a></li>
+							<li><a class="nav-link" href="#">Văn bằng 2</a></li>
+							<li><a class="nav-link" href="#">Cao đẳng</a></li>
+							<li><a class="nav-link" href="#">Vừa học vừa làm</a></li>
+						</ul>
+					</div>
+			      </li>
+
+			      <li class="nav-item active">
+			      	<div id="accordion">
+
+				        <a class="nav-link default" href="#" data-toggle="collapse" data-target="#collapseTwo" >Tra cứu <i class="fas fa-caret-down"></i></a>
+						<ul class="ul_con hidden_ul_con">
+							<li><a class="nav-link" href="#">Kết quả trúng tuyển</a></li>
+							<li><a class="nav-link" href="#">Kết quả nhập học</a></li>
+						</ul>
+						<ul class="hidden" id="collapseTwo" onclick="huy()" class="collapse" data-parent="#accordion">
+							<li><a class="nav-link" href="#">Kết quả trúng tuyển</a></li>
+							<li><a class="nav-link" href="#">Kết quả nhập học</a></li>
+						</ul>
+					</div>
+			      </li>
+
+			      <li class="nav-item active">
+			      	<div id="accordion">
+
+				        <a class="nav-link default" href="#" data-toggle="collapse" data-target="#collapseThree" >đăng ký xét tuyển<i class="fas fa-caret-down"></i></a>
+						<ul class="ul_con hidden_ul_con">
+							<li><a class="nav-link" href="#">Đại học</a></li>
+							<li><a class="nav-link" href="#">Cao đẳng</a></li>
+							<li><a class="nav-link" href="#">Liên thông,văn bằng 2</a></li>
+							<li><a class="nav-link" href="#">Sau đại học</a></li>
+						</ul>
+						<ul class="hidden" id="collapseThree" onclick="huy()" class="collapse" data-parent="#accordion">
+							<li><a class="nav-link" href="#">Đại học</a></li>
+							<li><a class="nav-link" href="#">Cao đẳng</a></li>
+							<li><a class="nav-link" href="#">Liên thông,văn bằng 2</a></li>
+							<li><a class="nav-link" href="#">Sau đại học</a></li>
+						</ul>
+					</div>
+			      </li>
+
+			      <li class="nav-item active">
+			      	<div id="accordion">
+
+				        <a class="nav-link default" href="#">MẪU PHIẾU ĐKXT<i class="fas fa-caret-down"></i></a>
+						
+					</div>
+			      </li>
+
+			      <li class="nav-item active">
+			      	<div id="accordion">
+
+				        <a class="nav-link default" href="#" >LIÊN HỆ<i class="fas fa-caret-down"></i></a>
+						
+					</div>
+			      </li>
+			    </ul>
+			  </div>
+		  </div>
+		 
+		</nav>
+	</div>
+
+<!-- content -->
+
+<div class="tuyensinh">
+	<div class="container">
+		<div class="row head_a" style="">
+					<a href="">Trang chủ</a>
+					<span>></span>
+					<a href="">Tin tức</a>
+					
+				</div>
+	<div class="row">
+		<div class="col-md-8">
+			<div class="row" style="border-bottom:1px solid #f2dbdb;margin-bottom: 1rem;">
+				<h3>Trường đại học Điện lực đẩy mạnh hợp tác với IMA</h3>
+			</div>
+			<div class="row">
+				<p>Ngày 2/10/2018, tại Hà Nội đã diễn ra Lễ ký kết biên bản ghi nhớ về Hợp tác giáo dục giữa Trường đại học Điện lực (EPU) và Hiệp hội Kế toán Quản trị Hoa Kỳ (IMA) sự kiện này nằm trong khuôn khổ các chuỗi hoạt động của ông Larry White – Thành viên cấp cao, Ban điều hành IMA tham dự với tư cách là đồng tài trợ Hội thảo “Vai trò kế toán quản trị trong việc nâng cao hiệu quả tài chính doanh nghiệp và triển vọng nghề nghiệp kế toàn quản trị” tại các trường đại học hàng đầu của Việt Nam. </p>
+				<img width="100%" src="https://tuyensinh.epu.edu.vn/Uploads/images/tin-tuc/boctkyket.jpg" alt="">
+				<p>Cụ thể IMA sẽ hỗ trợ EPU trong việc tạo điều kiện cho các sinh viên mong muốn đạt chứng chỉ CMA, IMA sẽ hỗ trợ EPU trong việc phê chuẩn chương trình đào tạo được IMA công nhận. Bên cạnh đó IMA sẽ cấp 10 suất học bổng cho sinh viên xuất sắc được EPU đề cử, IMA cũng khuyến khích và hỗ trợ các hoạt động của EPU liên quan đến lĩnh vực quản trị nói chung và chứng chỉ CMA nói riêng…</p>
+				<p>Phát biểu tại Lễ ký kết TS. Trương Nam Hưng- Phó Hiệu trưởng EPU cho biết “EPU mong muốn hợp tác với những chương trình giảng dạy chuyên nghiệp nhằm mục đích nâng cao trình độ và sự công nhận nghề nghiệp đối với sinh viên của EPU. Điều này bao gồm chương trình kế toán quản trị (CMA) được chứng nhận bở IMA”.
+
+				“Trong năm học 2018-2019, chương trình đào tạo thạc sỹ tài chính ngân hàng của Trường đại học Điện lực xây dựng theo hướng tích hợp một phần nội dung các môn học trong chương trình Kế toán quản trị Hoa Kỳ- một chương trình sẽ cung cấp các kỹ năng thiết yếu cho các giám đốc tài chính tương lai”, TS Trương Nam Hưng chia sẻ.
+
+				Chia sẻ với hơn 100 sinh viên và giảng viên của EPU tại lễ ký kết ông Josh Heniro- Giám đốc Khu vực Đông Nam Á của IMA nhận định “ Đây là sự chuẩn bị chu đáo của EPU đối với các sinh viên sau khi ra trường, nếu làm việc trong môi trường doanh nghiệp nội địa thì các bạn sinh viên sau khi ra trường hoàn toàn có thể tự tin thực hiện các bản báo cáo tài chính, tuy nhiên nếu là doanh nghiệp đa quốc gia với môi trường cạnh tranh gay gắt hiện nay của thị trường lao động trong nước và quốc tế thì một báo cáo tài chính kế toán chuẩn mực quốc tế là kỹ năng nghề nghiệp không thể thiếu đối với các sinh viên”.</p>
+				<p>Ngay sau lễ ký kết hội thảo “Vai trò kế toán quản trị trong việc nâng cao hiệu quả tài chính doanh nghiệp và triển vọng nghề nghiệp kế toàn quản trị” đã được ông Larry White chia sẻ các thông tin liên quan đến sự khác biệt của kế toán truyền thống và kế toán hiện đại trong bối cảnh cuộc cách mạng công nghiệp 4.0 đang diễn ra mạnh mẽ trên toàn cầu.</p>
+				<p>EPU hiện đang tổ chức đào tạo 18 ngành đại học, 8 ngành đại học chất lượng cao, 7 ngành đào tạo tiến sỹ, 8 ngành đào tạo thạc sỹ với quy mô khoảng 15.000 sinh viên. Trong khi đó IMA là một tổ chức nghề nghiệp danh tiếng toàn cầu được thành lập năm 1919 với hơn 85.000 hội viên được công nhận tại hơn 140 quốc gia. Với hơn 90 năm thành lập IMA luôn là tổ chức hang đầu trong việc cung cấp nguồn tài liệu trong lĩnh vực chuyên môn Quản trị tài chính và kế toán.</p>
+			</div>
+		</div>
+		<div class="col-md-4 phai">
+			<div class="row">
+				<h3>Tuyển sinh</h3>
+			</div>
+			<div class="row">
+				<ul style="list-style-type: none;width: 100%;" >
+					
+					<li><a href="tuyensinh_chitiet_tintuctuyensinh.html">Tin tuyển sinh</a></li>
+					<li><a href="tuyensinh_chitiet_tinnoibat.html">Tin nổi bật</a></li>
+				</ul>
+			</div>
+			<div class="row">
+				<h3>Tin liên quan</h3>
+			</div>
+			<div class="row">
+				<ul style="width: 100%;" >
+					
+					<li><a href="tuyensinh_tinlienquan_1.html">Thông báo kế hoạch tuyển sinh hệ cao đẳng chính quy năm 2019</a></li>
+					<li><a href="tuyensinh_tinlienquan_2.html">Thông báo điều chỉnh lịch thi tuyển sinh đợt 1 năm 2019</a></li>
+					<li><a href="tuyensinh_tinlienquan_3.html">Buổi đào tạo kỹ năng phỏng vấn với chuyên gia từ Công ty XHR</a></li>
+					<li><a href="tuyensinh_tinlienquan_4.html">Lễ trao tặng danh hiệu “Người tốt, việc tốt” cho sinh viên Vũ Huy Cảng – lớp Đ8CNCK</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	</div>
+</div>
+
+<!-- end content -->
+
+<footer><!-- footer -->
+	<div class="row">
+		<div class="col-md-3" >
+			<img src="../img/logo.png" alt="" style="width: 100%;">
+			<p>Tổng lượt truy cập:1.534.959</p>
+			<p>Đang online:180</p>
+		</div>
+		<div class="col-md-4" >
+			<h4>ĐẠI HỌC ĐIỆN LỰC</h4>
+			<p>CS1:Hoàng Quốc Việt,Hà Nội</p>
+			<p style="margin-bottom: 1rem;">CS2:Tân Minh,Sóc Sơn,Hà Nội</p>
+			<p>ĐT TUYỂN SINH:(024) 2218 5607</p>
+			<p>ĐT Phòng HCQT:(024) 2218 5607</p>
+			<p>FAX:(024) 3836 2065</p>
+			<p>Email:info@epu.edu.vn</p>
+		</div>
+		<div class="col-md-5">
+			<h4>ĐƠN VỊ TRỰC THUỘC</h4>
+			<p>KHOA ĐÀO TẠO</p>
+			<p>PHÒNG BAN</p>
+			<p>TRUNG TÂM</p>
+			<div style="display: flex;">
+				<i class="fab fa-facebook-f"></i>
+				<i class="fab fa-twitter"></i>
+				<i class="fab fa-youtube"></i>
+			</div>
+		</div>
+	</div>
+</footer>
+<div class="end">
+	<div class="row">
+		<span>© 2006-2019 Đại Học Điện Lực.Đã đăng ký bản quyền.</span>
+		<a href="">| Điều khoản &amp; Điều kiện</a>
+		<a href="">Chính sách bảo mật</a>
+		<a href="">Sơ đồ trang</a>
+		<a href="">RSS</a>
+	</div>
+</div>
+
+<!--- Script Source Files -->
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script src="../bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+<script src="../js/main.js"></script>
+<!--- End of Script Source Files -->
+</body>
+</html>

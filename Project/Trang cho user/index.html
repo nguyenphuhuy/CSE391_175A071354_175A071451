@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<link rel="stylesheet" href="../bootstrap-4.1.3-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+	    crossorigin="anonymous">
+	<link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+	<div class="head_menu">
+		 <div class="head-nav input ">
+		 	<div class="row d-flex justify-content-end ">
+		 		<div class="pr-4 mt-3 a">
+		 			<a href="">SINH VIÊN</a>
+			 		<a href="">CÁN BỘ</a>
+			 		<img class="head_anh" src="../img/vietnam.jpg" alt="">
+			 		<img class="head_anh" src="../img/tienganh.jpg" alt="">
+		 		</div>
+		 		
+		  		<form class="form-inline">
+						<div class="col p-0 m-0 pr-4 mt-3">
+							<div class="input-group ">
+								<input style="height: 29px;width: 130px;background-color: #EBEBEB!important;color: #6A6A6A;" type="text" class="form-control bg-dark text-white" placeholder="Tìm kiếm">
+								<div class="input-group-prepend">
+									<div style="height: 29px;width: 30px;background-color: #DDDDDD!important;border-top-right-radius: 3px;border-bottom-right-radius: 3px;" class="input-group-text d-flex justify-content-center">
+										<i style="" class="fas fa-search fa-0x"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+				</form>
+		 	</div>
+		 	
+	  	</div>
+		<nav class="navbar navbar-expand-lg ">
+		  <a class="navbar-brand" href="index.html"><img style="margin-top: 1rem;" src="../img/logo.png"></a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="color: white;font-size: 2rem;" >
+		    <i class="fas fa-align-justify"></i>
+		  </button>
+		  
+		  <div class="d-flex justify-content-end top_head pr-4">
+		  		
+			  <div class="collapse navbar-collapse" id="navbarNav">
+			    <ul class="navbar-nav d-flex justify-content-end" style="width: 100%;">
+			    	
+			    <a href="index.html"><i class="fa fa-home fa-2x" aria-hidden="true" style=""></i></a>
+			    <li class="nav-item active">
+			      	<div id="accordion">
+
+				        <a class="nav-link default" href="gioithieu_gioithieu.html" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Giới thiệu <i class="fas fa-caret-down"></i></a>
+						<ul class="ul_con hidden_ul_con">
+							<li><a class="nav-link" href="gioithieu_thongtinkhaiquat.html">Thông tin khái quát</a></li>
+							<li><a class="nav-link" href="gioithieu_cocautochuc.html">Cơ cấu tổ chức</a></li>
+							<li><a class="nav-link" href="gioithieu_hoidongtruong.html">Hội đồng trường</a></li>
+							<li><a class="nav-link" href="gioithieu_baocaocongkhai.html">Báo cáo công khai</a></li>
+							<li><a class="nav-link" href="gioithieu_bangiamhieu.html">Ban giám hiệu</a></li>
+							<li><a class="nav-link" href="gioithieu_khaosatvieclamsinhvien.html">Khảo sát việc làm sinh viên</a></li>
+							
+						</ul>
+						<ul class="hidden" id="collapseOne" onclick="huy()" class="collapse"  data-parent="#accordion">
+							<li><a class="nav-link" href="gioithieu_thongtinkhaiquat.html">Thông tin khái quát</a></li>
+							<li><a class="nav-link" href="gioithieu_cocautochuc.html">Cơ cấu tổ chức</a></li>
+							<li><a class="nav-link" href="gioithieu_hoidongtruong.html">Hội đồng trường</a></li>
+							<li><a class="nav-link" href="gioithieu_baocaocongkhai.html">Báo cáo công khai</a></li>
+							<li><a class="nav-link" href="gioithieu_bangiamhieu.html">Ban giám hiệu</a></li>
+							<li><a class="nav-link" href="gioithieu_khaosatvieclamsinhvien.html">Khảo sát việc làm sinh viên</a></li>
+						</ul>
+					</div>
+			      </li>
+			      <li class="nav-item active">
+			      	<div id="accordion">
+
+				        <a class="nav-link default" href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">tuyển sinh <i class="fas fa-caret-down"></i></a>
+						<ul class="ul_con hidden_ul_con">
+							<li><a class="nav-link" href="tuyensinh_nghiencusinh.html">Nghiên cứ sinh</a></li>
+							<li><a class="nav-link" href="tuyensinh_caohoc.html">Cao học</a></li>
+							<li><a class="nav-link" href="tuyensinh_daihoc.html">Đại học</a></li>
+							<li><a class="nav-link" href="tuyensinh_lienthong.html">Liên thông</a></li>
+							<li><a class="nav-link" href="tuyensinh_vanbang2.html">Văn bằng 2</a></li>
+							<li><a class="nav-link" href="tuyensinh_caodang.html">Cao đẳng</a></li>
+							<li><a class="nav-link" href="tuyensinh_vhvl.html">Vừa học vừa làm</a></li>
+						</ul>
+						<ul class="hidden" id="collapseOne" onclick="huy()" class="collapse"  data-parent="#accordion">
+							<li><a class="nav-link" href="tuyensinh_nghiencusinh.html">Nghiên cứ sinh</a></li>
+							<li><a class="nav-link" href="tuyensinh_caohoc.html">Cao học</a></li>
+							<li><a class="nav-link" href="tuyensinh_daihoc.html">Đại học</a></li>
+							<li><a class="nav-link" href="tuyensinh_lienthong.html">Liên thông</a></li>
+							<li><a class="nav-link" href="tuyensinh_vanbang2.html">Văn bằng 2</a></li>
+							<li><a class="nav-link" href="tuyensinh_caodang.html">Cao đẳng</a></li>
+							<li><a class="nav-link" href="tuyensinh_vhvl.html">Vừa học vừa làm</a></li>
+						</ul>
+					</div>
+			      </li>
+
+			      <li class="nav-item active">
+			      	<div id="accordion">
+
+				        <a class="nav-link default" href="#" data-toggle="collapse" data-target="#collapseTwo" >Đào tạo <i class="fas fa-caret-down"></i></a>
+						<ul class="ul_con hidden_ul_con">
+							<li><a class="nav-link" href="daotao_daihoc.html">Đại học</a></li>
+							<li><a class="nav-link" href="daotao_lienthong.html">Liên thông</a></li>
+							<li><a class="nav-link" href="daotao_thacsi.html">Thạc sĩ</a></li>
+							<li><a class="nav-link" href="daotao_tiensi.html">Tiến sĩ</a></li>
+							<li><a class="nav-link" href="daotao_vanbang2.html">Văn bằng 2</a></li>
+						</ul>
+						<ul class="hidden" id="collapseTwo" onclick="huy()" class="collapse" data-parent="#accordion">
+							<li><a class="nav-link" href="daotao_daihoc.html">Đại học</a></li>
+							<li><a class="nav-link" href="daotao_lienthong.html">Liên thông</a></li>
+							<li><a class="nav-link" href="daotao_thacsi.html">Thạc sĩ</a></li>
+							<li><a class="nav-link" href="daotao_tiensi.html">Tiến sĩ</a></li>
+							<li><a class="nav-link" href="daotao_vanbang2.html">Văn bằng 2</a></li>
+						</ul>
+					</div>
+			      </li>
+
+			      <li class="nav-item active">
+			      	<div id="accordion">
+
+				        <a class="nav-link default" href="#" data-toggle="collapse" data-target="#collapseThree" >Nghiên cứu<i class="fas fa-caret-down"></i></a>
+						<ul class="ul_con hidden_ul_con">
+							<li><a class="nav-link" href="nghiencuu_detaikhoahoc.html">Đề tài khoa học</a></li>
+							<li><a class="nav-link" href="nghiencuu_cbkh.html">Công bố khóa học</a></li>
+							<li><a class="nav-link" href="nghiencuu_bmkh.html">Các biểu mẫu khoa học</a></li>
+							<li><a class="nav-link" href="http://khoahocnangluong.vn/">Tạp chí KH&CN năng lượng</a></li>
+						</ul>
+						<ul class="hidden" id="collapseThree" onclick="huy()" class="collapse" data-parent="#accordion">
+							<li><a class="nav-link" href="nghiencuu_detaikhoahoc.html">Đề tài khoa học</a></li>
+							<li><a class="nav-link" href="nghiencuu_cbkh.html">Công bố khóa học</a></li>
+							<li><a class="nav-link" href="nghiencuu_bmkh.html">Các biểu mẫu khoa học</a></li>
+							<li><a class="nav-link" href="http://khoahocnangluong.vn/">Tạp chí KH&CN năng lượng</a></li>
+						</ul>
+					</div>
+			      </li>
+
+			      <li class="nav-item active">
+			      	<div id="accordion">
+
+				        <a class="nav-link default" href="#" data-toggle="collapse" data-target="#collapseThree" >Hợp tác<i class="fas fa-caret-down"></i></a>
+						<ul class="ul_con hidden_ul_con">
+							<li><a class="nav-link" href="hoptac_hoptacquocte.html">Hợp tác quốc tế</a></li>
+							<li><a class="nav-link" href="hoptac_hoptacdoanhnghiep.html">Hợp tác doanh nghiệp</a></li>
+							
+						</ul>
+						<ul class="hidden" id="collapseThree" onclick="huy()" class="collapse" data-parent="#accordion">
+							<li><a class="nav-link" href="hoptac_hoptacquocte.html">Hợp tác quốc tế</a></li>
+							<li><a class="nav-link" href="hoptac_hoptacdoanhnghiep.html">Hợp tác doanh nghiệp</a></li>
+						</ul>
+					</div>
+			      </li>
+
+			      <li class="nav-item active">
+			      	<div id="accordion">
+
+				        <a class="nav-link default" href="lienhe.html" >LIÊN HỆ<i class="fas fa-caret-down"></i></a>
+						
+					</div>
+			      </li>
+			    </ul>
+			  </div>
+		  </div>
+		 
+		</nav>
+	</div>
+	<!-- slide -->
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+	  <ol class="carousel-indicators">
+	    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+	    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+	    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+	  </ol>
+	  <div class="carousel-inner">
+	    <div class="carousel-item active" style="transition: transform 0s ease-in-out !important,-webkit-transform 0s ease-in-out !important;">
+	      <img class="d-block w-100" src="../img/slide.png" alt="First slide">
+	    </div>
+		<div class="carousel-item" style="transition: transform 0s ease-in-out !important,-webkit-transform 0s ease-in-out !important;">
+		      <img class="d-block w-100" src="../img/slide2.png" alt="Second slide">
+		</div>
+		<div class="carousel-item" style="transition: transform 0s ease-in-out !important,-webkit-transform 0s ease-in-out !important;">
+		      <img class="d-block w-100" src="../img/slide3.png" alt="Third slide">
+		 </div>
+	  </div>
+	  <a class="carousel-control-prev carousel-control left" href="#carouselExampleIndicators" role="button" data-slide="prev">
+	    <i class="fas fa-angle-left fa-3x"></i>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="carousel-control-next carousel-control right" href="#carouselExampleIndicators" role="button" data-slide="next">
+	    <i class="fas fa-angle-right fa-3x"></i>
+	    <span class="sr-only">Next</span>
+	  </a>
+	</div>
+	<!-- end slide -->
+	<div class="main" style="">
+		<div class="content_1">
+			<h1>THÔNG BÁO</h1>
+			<div class="row ">
+				<div class="col-md-3" >
+					<div class="d-flex justify-content-center">
+						<img src="../img/index1.png" >
+					</div>					
+						<ul class="p-0">
+							<li><a href="">Thông báo tiếp tục nhận hồ sơ xét tuyển học bạ đợt 1 tuyển sinh...</a></li>
+							<li>
+								<a href="">Thông tin tuyển sinh hệ chính quy đại học năm 2019</a>
+							</li>
+							<li><a href="">ĐỀ ÁN TUYỂN SINH ĐẠI HỌC ĐIỆN LỰC NĂM 2019</a></li>
+						</ul>
+
+				</div>
+				<div class="col-md-3" >
+					<div class="d-flex justify-content-center">
+						<img src="../img/index2.png" >
+					</div>					
+						<ul class="p-0">
+							<li><a href="">Thông báo lịch phát bằng tốt nghiệp D11LT-H3, 4, 5, D9 Kỹ sư đợt...</a></li>
+							<li>
+								<a href="">Thông báo tập trung học tập GDTC &amp;QPAN năm 2018-2019 đối với sinh...</a>
+							</li>
+							<li><a href="">Thông báo về việc tổ chức đăng ký môn học học kỳ I  năm học...</a></li>
+						</ul>
+
+				</div>
+				<div class="col-md-3" >
+					<div class="d-flex justify-content-center">
+						<img src="../img/index3.png" >
+					</div>					
+						<ul class="p-0">
+							<li><a href="">Kế hoạch tổ chức các hoạt động hưởng ứng Tuần lễ Quốc gia Nước...</a></li>
+							<li>
+								<a href="">Buổi tập huấn Phòng cháy chữa cháy và Cứu nạn cứu hộ năm 2019</a>
+							</li>
+							<li><a href="">Thông báo về việc tham gia hưởng ứng chiến dịch Giờ Trái đất năm...</a></li>
+						</ul>
+
+				</div>
+				<div class="col-md-3">
+					<div class="content_1_right">
+						<div class="row">
+							<h4 style="color: #002147;">SỰ KIỆN</h4>
+						</div>						
+						<div class="row pb-2 text-center" style="border-bottom: 1px solid #eee;width: 98%;display: flex;margin-bottom: 1rem;">
+							<div class="content_day">
+								<p class="" style="font-size: 18px;">16</p>
+								<p class="" style="font-size: 12px;">tháng 5</p>
+							</div>
+							<div class="content_day_right">
+								<p class="p-0 m-0"><a href="" style="color: black;font-size: 14px;">Làm việc với Công ty ABM (Hàn...</a></p>
+								<p class="sapo p-0 m-0" style="font-size: 11px;text-align: left;"><i>Ngày:16/05/2019</i></p>
+							</div>
+						</div>
+						
+						<div class="row pb-2 text-center" style="border-bottom: 1px solid #eee;width: 95%;display: flex;margin-bottom: 1rem;">
+							<div class="content_day">
+								<p class="" style="font-size: 18px;">15</p>
+								<p class="" style="font-size: 12px;">tháng 5</p>
+							</div>
+							<div class="content_day_right">
+								<p class="p-0 m-0"><a href="" style="color: black;font-size: 14px;width: fit-content;">Lễ ký kết thỏa thuận hợp tác với...</a></p>
+								<p class="sapo p-0 m-0" style="font-size: 11px;text-align: left;"><i>Ngày:15/05/2019</i></p>
+							</div>
+						</div>
+
+						<div class="row pb-2 text-center" style="border-bottom: 1px solid #eee;width: 95%;display: flex;margin-bottom: 1rem;">
+							<div class="content_day">
+								<p class="" style="font-size: 18px;">10</p>
+								<p class="" style="font-size: 12px;">tháng 5</p>
+							</div>
+							<div class="content_day_right">
+								<p class="p-0 m-0"><a href="" style="color: black;font-size: 14px;width: fit-content;">Tập huấn khai thác tài nguyên giáo...</a></p>
+								<p class="sapo p-0 m-0" style="font-size: 11px;text-align: left;"><i>Ngày:10/05/2019</i></p>
+							</div>
+						</div>
+
+						<div class="row pb-2 text-center" style="border-bottom: 1px solid #eee;width: 95%;display: flex;margin-bottom: 1rem;">
+							<div class="content_day">
+								<p class="" style="font-size: 18px;">27</p>
+								<p class="" style="font-size: 12px;">tháng 4</p>
+							</div>
+							<div class="content_day_right">
+								<p class="p-0 m-0"><a href="" style="color: black;font-size: 14px;width: fit-content;">Làm việc với Công ty ABM (Hàn...</a></p>
+								<p class="sapo p-0 m-0" style="font-size: 11px;text-align: left;"><i>Ngày:27/04/2019</i></p>
+							</div>
+						</div>
+						
+						<div class="row pb-2 text-center" style="border-bottom: 1px solid #eee;width: 95%;display: flex;margin-bottom: 1rem;">
+							<div class="content_day">
+								<p class="" style="font-size: 18px;">25</p>
+								<p class="" style="font-size: 12px;">tháng 4</p>
+							</div>
+							<div class="content_day_right">
+								<p class="p-0 m-0"><a href="" style="color: black;font-size: 14px;width: fit-content;">Làm việc với Trung tâm SLTC-Hoa...</a></p>
+								<p class="sapo p-0 m-0" style="font-size: 11px;text-align: left;"><i>Ngày:25/04/2019</i></p>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<div class="main" style="background-color: #e6e3e3;">
+		<div class="content_2">
+			<h1>TIN TỨC</h1>
+			<div class="row">
+				<div class="col-md-3" >
+					<div class="d-flex justify-content-center">
+						<img src="../img/index4.jpg" >
+					</div>
+					
+						<h3 class="p-0"><a href="">Lễ ký kết hợp tác giữa trường Đại học Điện lực...</a></h3>
+						<p style="font-size: 14px;">Ngày :  16/05/2019</p>		
+				</div>
+				<div class="col-md-3" >
+					<div class="d-flex justify-content-center">
+						<img src="../img/index4.jpg" >
+					</div>
+					
+						<h3 class="p-0"><a href="">Lễ ký kết hợp tác giữa trường Đại học Điện lực...</a></h3>
+						<p style="font-size: 14px;">Ngày :  13/05/2019</p>		
+				</div>
+				<div class="col-md-3" >
+					<div class="d-flex justify-content-center">
+						<img src="../img/index4.jpg" >
+					</div>
+					
+						<h3 class="p-0"><a href="">Lễ ký kết hợp tác giữa trường Đại học Điện lực...</a></h3>
+						<p style="font-size: 14px;">Ngày :  10/05/2019</p>		
+				</div>
+				<div class="col-md-3" >
+					<div class="row">
+						<h4 style="color: black;">TIN NỔI BẬT</h4>
+					</div>
+					<div class="row tnb" style="display: flex;">
+						<div class="trai">
+							<img src="../img/muiten.png" >
+						</div>
+							<p><a href="">Hội thảo “Tự đánh giá và đánh giá ngoài chương...</a></p>
+					</div>
+					<div class="row tnb" style="display: flex;">
+						<div class="trai">
+							<img src="../img/muiten.png" >
+						</div>
+							<p><a href="">Hành trình của Đại học Điện lực trong công tác...</a></p>
+					</div>
+					<div class="row tnb" style="display: flex;">
+						<div class="trai">
+							<img src="../img/muiten.png" >
+						</div>
+							<p><a href="">Trường Đại học Điện lực tham gia Hội thảo Quốc...</a></p>
+					</div>
+								
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<div class="main" style="">
+		<div class="content_1">
+			<h1>SINH VIÊN</h1>
+			<div class="row ">
+				<div class="col-md-3" >
+					<div class="d-flex justify-content-center">
+						<img src="../img/index4.png" >
+					</div>					
+						<ul class="p-0">
+							<li><a href="">Lễ tuyên dương sinh viên chất lượng cao hoàn thành xuất sắc...</a></li>
+							<li>
+								<a href="">Báo mới viết về bộ ảnh kỷ yếu đẹp như tạp chí du lịch của sinh...</a>
+							</li>
+							<li><a href="">Thông báo v.v theo dõi thông tin điểm danh</a></li>
+						</ul>
+
+				</div>
+				<div class="col-md-3" >
+					<div class="d-flex justify-content-center">
+						<img src="../img/index5.png" >
+					</div>					
+						<ul class="p-0">
+							<li><a href="">Chuyến Job Tour của sinh viên Khoa Kinh tế &amp; Quản lý đến công ty...</a></li>
+							<li>
+								<a href="">Báo mới viết về bộ ảnh kỷ yếu đẹp như tạp chí du lịch của sinh...</a>
+							</li>
+							<li><a href="">Hội thi văn nghệ của sinh viên học môn GDTC &amp; QPAN đợt 2</a></li>
+						</ul>
+
+				</div>
+				<div class="col-md-3" >
+					<div class="d-flex justify-content-center">
+						<img src="../img/index6.png" >
+					</div>					
+						<ul class="p-0">
+							<li><a href="">Giải thưởng kỳ thi Olympic vật lý toàn quốc năm 2019</a></li>
+							<li>
+								<a href="">Thành tích đội tuyển Olympic Toán - Đại học Điện lực năm 2019</a>
+							</li>
+							<li><a href="">Lễ tuyên dương tập thể và cá nhân sinh viên Đại học Điện lực đạt...</a></li>
+						</ul>
+
+				</div>
+				<div class="col-md-3" >
+					<div class="d-flex justify-content-center">
+						<img src="../img/index7.png" >
+					</div>					
+						<ul class="p-0">
+							<li><a href="">Lễ ký kết hợp tác giữa trường Đại học Điện lực với công ty cổ...</a></li>
+							<li>
+								<a href="">Thông báo tuyển dụng của Công ty TNHH Vận hành Kinh doanh Vĩnh...</a>
+							</li>
+							<li><a href="">Hội thảo tuyển dụng của công ty năng lượng môi trường Thiên Ý Hà...</a></li>
+						</ul>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="main" style="background-color: #e6e3e3;">
+		<div class="content_1">
+			<h1>CHƯƠNG TRÌNH ĐÀO TẠO</h1>
+			<div class="row text-center">
+				<div class="col-md-3" >
+					<div class="d-flex justify-content-center">
+						<img src="../img/index8.jpg" >
+					</div>					
+					<p>TIẾN SĨ</p>	
+				</div>
+				<div class="col-md-3" >
+					<div class="d-flex justify-content-center">
+						<img src="../img/index9.jpg" >
+					</div>					
+					<p>THẠC SĨ</p>
+				</div>
+				<div class="col-md-3" >
+					<div class="d-flex justify-content-center">
+						<img src="../img/index10.jpg" >
+					</div>					
+					<p>ĐẠI HỌC</p>	
+				</div>
+				<div class="col-md-3" >
+					<div class="d-flex justify-content-center">
+						<img src="../img/index11.jpg" >
+					</div>					
+					<p>ĐÀO TẠO THƯỜNG XUYÊN</p>	
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<div  class="main">
+		<div class="content_2">
+			<h1>TIN TỨC</h1>
+			<div class="row">
+				<div class="col-md-3" >
+					<iframe style="width: 100%;height: 180px;" src="https://www.youtube.com/embed/X7FWjwnbvJA?rel=0">
+						</iframe>
+						<h3 class="p-0"><a href="">Giới thiệu khoa kỹ thuật hạt nhân trường Đại học...</a></h3>
+						<p ><a href="" style="font-size: 14px;color: black;">Xem chi tiết</a></p>		
+				</div>
+				<div class="col-md-3" >
+					<iframe style="width: 100%;height: 180px;" src="https://www.youtube.com/embed/4towrJLENEc?rel=0">
+						</iframe>
+					
+						<h3 class="p-0"><a href="">Một ngày tại cơ sở 2 trường đai học Điện Lực</a></h3>
+						<p ><a href="" style="font-size: 14px;color: black;">Xem chi tiết</a></p>		
+				</div>
+				<div class="col-md-3" >
+					<iframe style="width: 100%;height: 180px;" src="https://www.youtube.com/embed/ctglxvrxHOE?rel=0">
+						</iframe>
+					
+						<h3 class="p-0"><a href="">TS.Vũ Thị Thu Nga trên chương trình EVN news</a></h3>
+						<p ><a href="" style="font-size: 14px;color: black;">Xem chi tiết</a></p>		
+				</div>
+				<div class="col-md-3" >
+					<div class="row">
+						<h4 style="color: black;">XEM THÊM</h4>
+					</div>
+					<div class="row tnb" style="display: flex;">
+						<div class="trai">
+							<img style="border-radius: 100px;" src="../img/muiten.png" >
+						</div>
+							<p><a href="">Hội thảo “Tự đánh giá và đánh giá ngoài chương...</a></p>
+					</div>
+					<div class="row tnb" style="display: flex;">
+						<div class="trai">
+							<img style="border-radius: 100px;" src="../img/muiten.png" >
+						</div>
+							<p><a href="">Hành trình của Đại học Điện lực trong công tác...</a></p>
+					</div>
+					<div class="row tnb" style="display: flex;">
+						<div class="trai">
+							<img style="border-radius: 100px;" src="../img/muiten.png" >
+						</div>
+							<p><a href="">Trường Đại học Điện lực tham gia Hội thảo Quốc...</a></p>
+					</div>
+								
+				</div>
+			</div>
+			
+		</div>
+	</div>
+<footer><!-- footer -->
+	<div class="row">
+		<div class="col-md-3" >
+			<a href="index.html"><img src="../img/logo.png" alt="" style="width: 100%;"></a>
+			<p>Tổng lượt truy cập:1.534.959</p>
+			<p>Đang online:180</p>
+		</div>
+		<div class="col-md-4" >
+			<h4>ĐẠI HỌC ĐIỆN LỰC</h4>
+			<p>CS1:Hoàng Quốc Việt,Hà Nội</p>
+			<p style="margin-bottom: 1rem;">CS2:Tân Minh,Sóc Sơn,Hà Nội</p>
+			<p>ĐT TUYỂN SINH:(024) 2218 5607</p>
+			<p>ĐT Phòng HCQT:(024) 2218 5607</p>
+			<p>FAX:(024) 3836 2065</p>
+			<p>Email:info@epu.edu.vn</p>
+		</div>
+		<div class="col-md-5">
+			<h4>ĐƠN VỊ TRỰC THUỘC</h4>
+			<p>KHOA ĐÀO TẠO</p>
+			<p>PHÒNG BAN</p>
+			<p>TRUNG TÂM</p>
+			<div style="display: flex;">
+				<i class="fab fa-facebook-f"></i>
+				<i class="fab fa-twitter"></i>
+				<i class="fab fa-youtube"></i>
+			</div>
+		</div>
+	</div>
+</footer>
+<div class="end">
+	<div class="row">
+		<span>© 2006-2019 Đại Học Điện Lực.Đã đăng ký bản quyền.</span>
+		<a href="">| Điều khoản &amp; Điều kiện</a>
+		<a href="">Chính sách bảo mật</a>
+		<a href="">Sơ đồ trang</a>
+		<a href="">RSS</a>
+	</div>
+</div>
+
+<!--- Script Source Files -->
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script src="../bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+<script src="../js/main.js"></script>
+<!--- End of Script Source Files -->
+</body>
+</html>

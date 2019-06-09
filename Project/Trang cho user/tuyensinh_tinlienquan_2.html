@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<link rel="stylesheet" href="../bootstrap-4.1.3-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+	    crossorigin="anonymous">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/style2.css">
+</head>
+<body>
+	<div class="head_menu">
+		 <div class="head-nav input ">
+		 	<div class="row d-flex justify-content-end ">
+		 		<div class="pr-4 mt-3 a">
+		 			<a href="">SINH VIÊN</a>
+			 		<a href="">CÁN BỘ</a>
+			 		<img class="head_anh" src="../img/vietnam.jpg" alt="">
+			 		<img class="head_anh" src="../img/tienganh.jpg" alt="">
+		 		</div>
+		 		
+		  		<form class="form-inline">
+						<div class="col p-0 m-0 pr-4 mt-3">
+							<div class="input-group ">
+								<input style="height: 29px;width: 130px;background-color: #EBEBEB!important;color: #6A6A6A;" type="text" class="form-control bg-dark text-white" placeholder="Tìm kiếm">
+								<div class="input-group-prepend">
+									<div style="height: 29px;width: 30px;background-color: #DDDDDD!important;border-top-right-radius: 3px;border-bottom-right-radius: 3px;" class="input-group-text d-flex justify-content-center">
+										<i style="" class="fas fa-search fa-0x"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+				</form>
+		 	</div>
+		 	
+	  	</div>
+		<nav class="navbar navbar-expand-lg ">
+		  <a class="navbar-brand" href="#"><img style="margin-top: 1rem;" src="../img/logo.png"></a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="color: white;font-size: 2rem;" >
+		    <i class="fas fa-align-justify"></i>
+		  </button>
+		  
+		  <div class="d-flex justify-content-end top_head pr-4">
+		  		
+			  <div class="collapse navbar-collapse" id="navbarNav">
+			    <ul class="navbar-nav d-flex justify-content-end" style="width: 100%;">
+			    	
+			    <i class="fa fa-home fa-2x" aria-hidden="true" style=""></i>
+			      <li class="nav-item active">
+			      	<div id="accordion">
+
+				        <a class="nav-link default" href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">tuyển sinh <i class="fas fa-caret-down"></i></a>
+						<ul class="ul_con hidden_ul_con">
+							<li><a class="nav-link" href="#">Nghiên cứ sinh</a></li>
+							<li><a class="nav-link" href="#">Cao học</a></li>
+							<li><a class="nav-link" href="#">Đại học</a></li>
+							<li><a class="nav-link" href="#">Liên thông</a></li>
+							<li><a class="nav-link" href="#">Văn bằng 2</a></li>
+							<li><a class="nav-link" href="#">Cao đẳng</a></li>
+							<li><a class="nav-link" href="#">Vừa học vừa làm</a></li>
+						</ul>
+						<ul class="hidden" id="collapseOne" onclick="huy()" class="collapse"  data-parent="#accordion">
+							<li><a class="nav-link" href="#">Nghiên cứ sinh</a></li>
+							<li><a class="nav-link" href="#">Cao học</a></li>
+							<li><a class="nav-link" href="#">Đại học</a></li>
+							<li><a class="nav-link" href="#">Liên thông</a></li>
+							<li><a class="nav-link" href="#">Văn bằng 2</a></li>
+							<li><a class="nav-link" href="#">Cao đẳng</a></li>
+							<li><a class="nav-link" href="#">Vừa học vừa làm</a></li>
+						</ul>
+					</div>
+			      </li>
+
+			      <li class="nav-item active">
+			      	<div id="accordion">
+
+				        <a class="nav-link default" href="#" data-toggle="collapse" data-target="#collapseTwo" >Tra cứu <i class="fas fa-caret-down"></i></a>
+						<ul class="ul_con hidden_ul_con">
+							<li><a class="nav-link" href="#">Kết quả trúng tuyển</a></li>
+							<li><a class="nav-link" href="#">Kết quả nhập học</a></li>
+						</ul>
+						<ul class="hidden" id="collapseTwo" onclick="huy()" class="collapse" data-parent="#accordion">
+							<li><a class="nav-link" href="#">Kết quả trúng tuyển</a></li>
+							<li><a class="nav-link" href="#">Kết quả nhập học</a></li>
+						</ul>
+					</div>
+			      </li>
+
+			      <li class="nav-item active">
+			      	<div id="accordion">
+
+				        <a class="nav-link default" href="#" data-toggle="collapse" data-target="#collapseThree" >đăng ký xét tuyển<i class="fas fa-caret-down"></i></a>
+						<ul class="ul_con hidden_ul_con">
+							<li><a class="nav-link" href="#">Đại học</a></li>
+							<li><a class="nav-link" href="#">Cao đẳng</a></li>
+							<li><a class="nav-link" href="#">Liên thông,văn bằng 2</a></li>
+							<li><a class="nav-link" href="#">Sau đại học</a></li>
+						</ul>
+						<ul class="hidden" id="collapseThree" onclick="huy()" class="collapse" data-parent="#accordion">
+							<li><a class="nav-link" href="#">Đại học</a></li>
+							<li><a class="nav-link" href="#">Cao đẳng</a></li>
+							<li><a class="nav-link" href="#">Liên thông,văn bằng 2</a></li>
+							<li><a class="nav-link" href="#">Sau đại học</a></li>
+						</ul>
+					</div>
+			      </li>
+
+			      <li class="nav-item active">
+			      	<div id="accordion">
+
+				        <a class="nav-link default" href="#">MẪU PHIẾU ĐKXT<i class="fas fa-caret-down"></i></a>
+						
+					</div>
+			      </li>
+
+			      <li class="nav-item active">
+			      	<div id="accordion">
+
+				        <a class="nav-link default" href="#" >LIÊN HỆ<i class="fas fa-caret-down"></i></a>
+						
+					</div>
+			      </li>
+			    </ul>
+			  </div>
+		  </div>
+		 
+		</nav>
+	</div>
+
+<!-- content -->
+
+<div class="tuyensinh">
+	<div class="container">
+		<div class="row head_a" style="">
+					<a href="">Trang chủ</a>
+					<span>></span>
+					<a href="">Tin tức</a>
+					
+				</div>
+	<div class="row">
+		<div class="col-md-8">
+			<div class="row" style="border-bottom:1px solid #f2dbdb;margin-bottom: 1rem;">
+				<h3>Thông báo điều chỉnh lịch thi tuyển sinh đợt 1 năm 2019</h3>
+			</div>
+			<div class="row">
+				<p>Ngày 28/8 Khoa Kinh tế và Quản lý phối hợp với Công ty đào tạo nhân sự XHR tổ chức buổi đào tạo kỹ năng phỏng vấn cho các bạn sinh viên hệ đào tạo chất lượng cao ngành kinh tế khóa D10
+
+				Mở đầu chương trình là phần giới thiệu về cơ hội nghề nghiệp tại Công ty kiểm toán RSM của Chị Đào Phương Thúy - Công ty kiểm toán RSM</p>
+				<img width="100%" src="https://fem.epu.edu.vn/Uploads/images/kt_ql/1(5).jpg" alt="">
+				<p>Chuyên gia Trần Hữu Xiêm đến từ Công ty XHR giới thiệu với các bạn sinh viên một số kỹ năng phỏng vấn</p>
+				<img width="100%" src="https://fem.epu.edu.vn/Uploads/images/kt_ql/2(4).jpg" alt="">
+				<p>PGS.TS. Lê Anh Tuấn - Trưởng Khoa Kinh tế và Quản lý giao lưu cùng với các bạn sinh viên</p>
+				<img width="100%" src="https://fem.epu.edu.vn/Uploads/images/kt_ql/3(2).jpg" alt="">
+				<p style="margin-bottom: 1rem;">Các vị khách mời, thầy/cô chụp ảnh lưu niệm với các bạn sinh viên cuối chương trình</p>
+			</div>
+		</div>
+		<div class="col-md-4 phai">
+			<div class="row">
+				<h3>Tuyển sinh</h3>
+			</div>
+			<div class="row">
+				<ul style="list-style-type: none;width: 100%;" >
+					
+					<li><a href="tuyensinh_chitiet_tintuctuyensinh.html">Tin tuyển sinh</a></li>
+					<li><a href="tuyensinh_chitiet_tinnoibat.html">Tin nổi bật</a></li>
+				</ul>
+			</div>
+			<div class="row">
+				<h3>Tin liên quan</h3>
+			</div>
+			<div class="row">
+				<ul style="width: 100%;" >
+					
+					<li><a href="tuyensinh_tinlienquan_1.html">Thông báo kế hoạch tuyển sinh hệ cao đẳng chính quy năm 2019</a></li>
+					<li><a href="tuyensinh_tinlienquan_2.html">Thông báo điều chỉnh lịch thi tuyển sinh đợt 1 năm 2019</a></li>
+					<li><a href="tuyensinh_tinlienquan_3.html">Buổi đào tạo kỹ năng phỏng vấn với chuyên gia từ Công ty XHR</a></li>
+					<li><a href="tuyensinh_tinlienquan_4.html">Lễ trao tặng danh hiệu “Người tốt, việc tốt” cho sinh viên Vũ Huy Cảng – lớp Đ8CNCK</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	</div>
+</div>
+
+<!-- end content -->
+
+<footer><!-- footer -->
+	<div class="row">
+		<div class="col-md-3" >
+			<img src="../img/logo.png" alt="" style="width: 100%;">
+			<p>Tổng lượt truy cập:1.534.959</p>
+			<p>Đang online:180</p>
+		</div>
+		<div class="col-md-4" >
+			<h4>ĐẠI HỌC ĐIỆN LỰC</h4>
+			<p>CS1:Hoàng Quốc Việt,Hà Nội</p>
+			<p style="margin-bottom: 1rem;">CS2:Tân Minh,Sóc Sơn,Hà Nội</p>
+			<p>ĐT TUYỂN SINH:(024) 2218 5607</p>
+			<p>ĐT Phòng HCQT:(024) 2218 5607</p>
+			<p>FAX:(024) 3836 2065</p>
+			<p>Email:info@epu.edu.vn</p>
+		</div>
+		<div class="col-md-5">
+			<h4>ĐƠN VỊ TRỰC THUỘC</h4>
+			<p>KHOA ĐÀO TẠO</p>
+			<p>PHÒNG BAN</p>
+			<p>TRUNG TÂM</p>
+			<div style="display: flex;">
+				<i class="fab fa-facebook-f"></i>
+				<i class="fab fa-twitter"></i>
+				<i class="fab fa-youtube"></i>
+			</div>
+		</div>
+	</div>
+</footer>
+<div class="end">
+	<div class="row">
+		<span>© 2006-2019 Đại Học Điện Lực.Đã đăng ký bản quyền.</span>
+		<a href="">| Điều khoản &amp; Điều kiện</a>
+		<a href="">Chính sách bảo mật</a>
+		<a href="">Sơ đồ trang</a>
+		<a href="">RSS</a>
+	</div>
+</div>
+
+<!--- Script Source Files -->
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script src="../bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+<script src="../js/main.js"></script>
+<!--- End of Script Source Files -->
+</body>
+</html>

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+
+	<link rel="stylesheet" href="../bootstrap-4.1.3-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+	    crossorigin="anonymous">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/bcck.css">
+</head>
+<body>
+		<div class="head_menu">
+		 <div class="head-nav input ">
+		 	<div class="row d-flex justify-content-end ">
+		 		<div class="pr-4 mt-3 a">
+		 			<a href="">SINH VIÊN</a>
+			 		<a href="">CÁN BỘ</a>
+			 		<img class="head_anh" src="../img/vietnam.jpg" alt="">
+			 		<img class="head_anh" src="../img/tienganh.jpg" alt="">
+		 		</div>
+		 		
+		  		<form class="form-inline">
+						<div class="col p-0 m-0 pr-4 mt-3">
+							<div class="input-group ">
+								<input style="height: 29px;width: 130px;background-color: #EBEBEB!important;color: #6A6A6A;" type="text" class="form-control bg-dark text-white" placeholder="Tìm kiếm">
+								<div class="input-group-prepend">
+									<div style="height: 29px;width: 30px;background-color: #DDDDDD!important;border-top-right-radius: 3px;border-bottom-right-radius: 3px;" class="input-group-text d-flex justify-content-center">
+										<i style="" class="fas fa-search fa-0x"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+				</form>
+		 	</div>
+		 	
+	  	</div>
+		<nav class="navbar navbar-expand-lg ">
+		  <a class="navbar-brand" href="index.html"><img style="margin-top: 1rem;" src="../img/logo.png"></a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="color: white;font-size: 2rem;" >
+		    <i class="fas fa-align-justify"></i>
+		  </button>
+		  
+		  <div class="d-flex justify-content-end top_head pr-4">
+		  		
+			  <div class="collapse navbar-collapse" id="navbarNav">
+			    <ul class="navbar-nav d-flex justify-content-end" style="width: 100%;">
+			    	
+			    <a href="index.html"><i class="fa fa-home fa-2x" aria-hidden="true" style=""></i></a>
+			    <li class="nav-item active">
+			      	<div id="accordion">
+
+				        <a class="nav-link default" href="gioithieu_gioithieu.html" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Giới thiệu <i class="fas fa-caret-down"></i></a>
+						<ul class="ul_con hidden_ul_con">
+							<li><a class="nav-link" href="gioithieu_thongtinkhaiquat.html">Thông tin khái quát</a></li>
+							<li><a class="nav-link" href="gioithieu_cocautochuc.html">Cơ cấu tổ chức</a></li>
+							<li><a class="nav-link" href="gioithieu_hoidongtruong.html">Hội đồng trường</a></li>
+							<li><a class="nav-link" href="gioithieu_baocaocongkhai.html">Báo cáo công khai</a></li>
+							<li><a class="nav-link" href="gioithieu_bangiamhieu.html">Ban giám hiệu</a></li>
+							<li><a class="nav-link" href="gioithieu_khaosatvieclamsinhvien.html">Khảo sát việc làm sinh viên</a></li>
+							
+						</ul>
+						<ul class="hidden" id="collapseOne" onclick="huy()" class="collapse"  data-parent="#accordion">
+							<li><a class="nav-link" href="gioithieu_thongtinkhaiquat.html">Thông tin khái quát</a></li>
+							<li><a class="nav-link" href="gioithieu_cocautochuc.html">Cơ cấu tổ chức</a></li>
+							<li><a class="nav-link" href="gioithieu_hoidongtruong.html">Hội đồng trường</a></li>
+							<li><a class="nav-link" href="gioithieu_baocaocongkhai.html">Báo cáo công khai</a></li>
+							<li><a class="nav-link" href="gioithieu_bangiamhieu.html">Ban giám hiệu</a></li>
+							<li><a class="nav-link" href="gioithieu_khaosatvieclamsinhvien.html">Khảo sát việc làm sinh viên</a></li>
+						</ul>
+					</div>
+			      </li>
+			      <li class="nav-item active">
+			      	<div id="accordion">
+
+				        <a class="nav-link default" href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">tuyển sinh <i class="fas fa-caret-down"></i></a>
+						<ul class="ul_con hidden_ul_con">
+							<li><a class="nav-link" href="tuyensinh_nghiencusinh.html">Nghiên cứ sinh</a></li>
+							<li><a class="nav-link" href="tuyensinh_caohoc.html">Cao học</a></li>
+							<li><a class="nav-link" href="tuyensinh_daihoc.html">Đại học</a></li>
+							<li><a class="nav-link" href="tuyensinh_lienthong.html">Liên thông</a></li>
+							<li><a class="nav-link" href="tuyensinh_vanbang2.html">Văn bằng 2</a></li>
+							<li><a class="nav-link" href="tuyensinh_caodang.html">Cao đẳng</a></li>
+							<li><a class="nav-link" href="tuyensinh_vhvl.html">Vừa học vừa làm</a></li>
+						</ul>
+						<ul class="hidden" id="collapseOne" onclick="huy()" class="collapse"  data-parent="#accordion">
+							<li><a class="nav-link" href="tuyensinh_nghiencusinh.html">Nghiên cứ sinh</a></li>
+							<li><a class="nav-link" href="tuyensinh_caohoc.html">Cao học</a></li>
+							<li><a class="nav-link" href="tuyensinh_daihoc.html">Đại học</a></li>
+							<li><a class="nav-link" href="tuyensinh_lienthong.html">Liên thông</a></li>
+							<li><a class="nav-link" href="tuyensinh_vanbang2.html">Văn bằng 2</a></li>
+							<li><a class="nav-link" href="tuyensinh_caodang.html">Cao đẳng</a></li>
+							<li><a class="nav-link" href="tuyensinh_vhvl.html">Vừa học vừa làm</a></li>
+						</ul>
+					</div>
+			      </li>
+
+			      <li class="nav-item active">
+			      	<div id="accordion">
+
+				        <a class="nav-link default" href="#" data-toggle="collapse" data-target="#collapseTwo" >Đào tạo <i class="fas fa-caret-down"></i></a>
+						<ul class="ul_con hidden_ul_con">
+							<li><a class="nav-link" href="daotao_daihoc.html">Đại học</a></li>
+							<li><a class="nav-link" href="daotao_lienthong.html">Liên thông</a></li>
+							<li><a class="nav-link" href="daotao_thacsi.html">Thạc sĩ</a></li>
+							<li><a class="nav-link" href="daotao_tiensi.html">Tiến sĩ</a></li>
+							<li><a class="nav-link" href="daotao_vanbang2.html">Văn bằng 2</a></li>
+						</ul>
+						<ul class="hidden" id="collapseTwo" onclick="huy()" class="collapse" data-parent="#accordion">
+							<li><a class="nav-link" href="daotao_daihoc.html">Đại học</a></li>
+							<li><a class="nav-link" href="daotao_lienthong.html">Liên thông</a></li>
+							<li><a class="nav-link" href="daotao_thacsi.html">Thạc sĩ</a></li>
+							<li><a class="nav-link" href="daotao_tiensi.html">Tiến sĩ</a></li>
+							<li><a class="nav-link" href="daotao_vanbang2.html">Văn bằng 2</a></li>
+						</ul>
+					</div>
+			      </li>
+
+			      <li class="nav-item active">
+			      	<div id="accordion">
+
+				        <a class="nav-link default" href="#" data-toggle="collapse" data-target="#collapseThree" >Nghiên cứu<i class="fas fa-caret-down"></i></a>
+						<ul class="ul_con hidden_ul_con">
+							<li><a class="nav-link" href="nghiencuu_detaikhoahoc.html">Đề tài khoa học</a></li>
+							<li><a class="nav-link" href="nghiencuu_cbkh.html">Công bố khóa học</a></li>
+							<li><a class="nav-link" href="nghiencuu_bmkh.html">Các biểu mẫu khoa học</a></li>
+							<li><a class="nav-link" href="http://khoahocnangluong.vn/">Tạp chí KH&CN năng lượng</a></li>
+						</ul>
+						<ul class="hidden" id="collapseThree" onclick="huy()" class="collapse" data-parent="#accordion">
+							<li><a class="nav-link" href="nghiencuu_detaikhoahoc.html">Đề tài khoa học</a></li>
+							<li><a class="nav-link" href="nghiencuu_cbkh.html">Công bố khóa học</a></li>
+							<li><a class="nav-link" href="nghiencuu_bmkh.html">Các biểu mẫu khoa học</a></li>
+							<li><a class="nav-link" href="http://khoahocnangluong.vn/">Tạp chí KH&CN năng lượng</a></li>
+						</ul>
+					</div>
+			      </li>
+
+			      <li class="nav-item active">
+			      	<div id="accordion">
+
+				        <a class="nav-link default" href="#" data-toggle="collapse" data-target="#collapseThree" >Hợp tác<i class="fas fa-caret-down"></i></a>
+						<ul class="ul_con hidden_ul_con">
+							<li><a class="nav-link" href="hoptac_hoptacquocte.html">Hợp tác quốc tế</a></li>
+							<li><a class="nav-link" href="hoptac_hoptacdoanhnghiep.html">Hợp tác doanh nghiệp</a></li>
+							
+						</ul>
+						<ul class="hidden" id="collapseThree" onclick="huy()" class="collapse" data-parent="#accordion">
+							<li><a class="nav-link" href="hoptac_hoptacquocte.html">Hợp tác quốc tế</a></li>
+							<li><a class="nav-link" href="hoptac_hoptacdoanhnghiep.html">Hợp tác doanh nghiệp</a></li>
+						</ul>
+					</div>
+			      </li>
+
+			      <li class="nav-item active">
+			      	<div id="accordion">
+
+				        <a class="nav-link default" href="lienhe.html" >LIÊN HỆ<i class="fas fa-caret-down"></i></a>
+						
+					</div>
+			      </li>
+			    </ul>
+			  </div>
+		  </div>
+		 
+		</nav>
+	</div>
+
+<!-- content -->
+<div class="thongtinkhaiquat">
+		<div class="container">
+			<div class="row head_a" style="">
+					<a href="">Trang chủ</a>
+					<span>></span>
+					<a href="gioithieu_gioithieu.html">Giới Thiệu</a>
+					<span>></span>
+					<a href="gioithieu_thongtinkhaiquat.html">Thông tin khái quát</a>
+					<span>></span>
+
+				</div>
+			<div class="row">
+			<div class="col-md-8">
+				<div class="row" style="border-bottom:1px solid #f2dbdb;">
+					<h3>Thông tin khái quát</h3>
+				</div> <br>
+				<div class="content">
+					<div class="rowdiv" >
+
+						<p><span>Tiền thân của Trường Đại học Điện lực là Trường Kỹ nghệ Thực hành được thành lập năm 1898. Sau đó Trường được tách thành Trường Kỹ thuật I và trường Kỹ thuật II. Tháng 8/1962, Trường Kỹ thuật I đổi tên thành Trường Trung Cao Cơ điện và đến ngày 08/02/1966, Bộ Công nghiệp nặng quyết định tách Trường Trung Cao Cơ điện thành Trường Trung học Kỹ thuật Điện và trường Trung học Cơ khí. Đến tháng 7/1997, Bộ Công nghiệp quyết định đổi tên thành trường Trung học Điện 1. Tháng 04/2000, Bộ Công nghiệp quyết định hợp nhất Trường Trung học Điện 1 và Trường Bồi dưỡng Tại chức thành Trường Trung học Điện 1 thuộc Tổng Công ty Điện lực Việt Nam (nay là Tập đoàn Điện lực Việt Nam). Ngày 26/10/2001, Bộ trưởng Bộ Giáo dục và Đào tạo ký quyết định thành lập Trường Cao đẳng Điện lực trên cơ sở Trường Trung học Điện 1; sau 5 năm xây dựng và phát triển, ngày 19/5/2006, Thủ tướng Chính phủ ký quyết định thành lập Trường Đại học Điện lực trên cơ sở Trường Cao đẳng Điện lực. Thực hiện Nghị quyết 77 NQ-CP của Chính phủ về đổi mới cơ chế đào tạo, trên cơ sở nhiều năm liên tục tự chủ về kinh phí trong các hoạt động của Trường; ngày 01/9/2015 Thủ tướng Chính phủ ký quyết định số 1508/QĐ-TTg phê duyệt Đề án thí điểm đổi mới cơ chế hoạt động của Trường Đại học Điện lực giai đoạn 2015 – 2017; ngày 24/9/2015, Bộ trưởng Bộ Công Thương ký quyết định số 10268/QĐ-BCT về việc chuyển Trường Đại học Điện lực trực thuộc Tập đoàn Điện lực Việt Nam về trực thuộc Bộ Công Thương.</span></p><br>
+
+						<p>	<span> Trường Đại học Điện lực là một trường đại học công lập đa cấp, đa ngành có nhiệm vụ chủ yếu là đào tạo nguồn nhân lực có chất lượng cao cung cấp cho Ngành và phục vụ nhu cầu kinh tế xã hội đồng thời là một trung tâm nghiên cứu khoa học - công nghệ hàng đầu của Ngành.</span></p>
+				
+
+
+					</div>
+
+					<div class="rowdiv1">
+						<strong><span >1.Đào tạo</span></strong><br>
+						<br><span>Trường Đại học Điện lực hiện có 18 ngành đào tạo đại học đại trà (trong đó 11 ngành đã tuyển sinh và tổ chức đào tạo), 8 chương trình đại học chất lượng cao, 4 ngành đào tạo tiến sĩ, 7 ngành đào tạo thạc sỹ với quy mô gần 10.000 sinh viên.</span> <br>
+					</div><br>
+
+					<div class="rowdiv2">
+						<strong> <span>2.Nghiên cứu khoa học</span></strong><br>
+						<br><span> Trên cơ sở lấy chiến lược phát triển Khoa học và Công nghệ (KH&CN) gắn kết với thực tiễn sản xuất, trường Đại học Điện lực luôn thực hiện các nhiệm vụ KH&CN nhằm đáp ứng các nhu cầu của khách hàng và thực tiễn đặt ra. Các lĩnh vực nghiên cứu thuộc thế mạnh của trường bao gồm: Các hệ thống kỹ thuật trong các nhà máy điện (thủy điện, nhiệt điện, điện hạt nhân, điện gió, điện mặt trời, điện sinh khối, điện rác thải), trạm điện và đường dây truyền tải điện; các bộ phận và hệ thống nhiệt-lạnh (như lò hơi, lò quay, máy lạnh, tuabin nhiệt, bơm nhiệt , mạng nhiệt); các hệ thống đo lường, điều khiển, bảo vệ, giám sát và truyền tin trên diện rộng; các vấn đề liên quan đến cơ khí, chế tạo và xây dựng điện....</span><br>
+
+						<span>Nhiều năm qua trường đã nghiên cứu hàng trăm đề tài các cấp như: cấp Trường, cấp EVN, cấp Bộ Công Thương, cấp Sở Khoa học và Công nghệ, cấp Nhà nước. Các kết quả nghiên cứu đã tạo ra nhiều sản phẩm có giá trị phát triển khoa học và ứng dụng trong thực tế cao. Đại diện cho các sản phẩm nghiên cứu đó là thương phẩm công tơ điện tử, dàn nước nóng năng lượng mặt trời, lưới điện thông minh, máy tạo dòng 4000A, hợp bộ thí nghiệm Vôn-Ampe, máy bắn bóng bàn,... Bên cạnh các kết quả nghiên cứu phát triển và ứng dụng, các nhà khoa học của trường còn công bố các kết quả đó trong hàng trăm bài báo đăng trên các tạp chí uy tín ở  trong và ngoài nước.</span>
+					</div><br>
+
+					<div class="rowdiv3">
+						<strong><span>3.Hợp tác quốc tế</span></strong><br>
+						<br><span>Nhằm nâng cao chất lượng giáo dục và phát triển hợp tác đào tạo quốc tế, Nhà trường đã thực hiện các hoạt động hợp tác liên kết đào tạo với các đối tác nước ngoài như Đại học Grenoble (Pháp), CVUT (Cộng hòa Séc), ĐH Palermo (Ý), Học viện Chisholm (Úc), Đại học Fukui (Nhật Bản), Đại học Năng lượng Kazan (Liên bang Nga), Đại học Điện lực Thượng Hải và Đại học Khoa  học Kỹ thuật Điện tử Quế Lâm (Trung Quốc)...</span>
+					</div> <br>
+	
+					<div class="rowdiv4">
+						<span><strong>4.Nhân lực</strong><br>
+
+						<br><span>Nhà trường hiện có 472 cán bộ viên chức lao động, trong đó có 2 Giáo sư, 21 Phó Giáo sư, 88 Tiến sĩ, và 262 Thạc sỹ. 100% giảng viên của Nhà trường đạt trình độ chuẩn theo quy định, được bố trí giảng dạy đúng chuyên môn đào tạo. Hiện nay, mỗi chuyên ngành đào tạo đều có đủ giảng viên có trình độ tiến sĩ chuyên ngành và trình độ thạc sỹ theo quy định của Bộ Giáo dục và Đào tạo.</span> 
+					</div><br>
+
+					<div class="rowdiv5">
+						<strong><span>5.Cơ sở vật chất</span></strong><br>
+						 <br><span>Trường có 2 cơ sở đào tạo: </span><br>
+									<br><span>- Cơ sở 1 tại 235 Hoàng Quốc Việt – quận Bắc Từ Liêm – Tspan. Hà Nội</span><br>
+									<br><span>- Cơ sở 2 tại xã Tân Minh – Sóc Sơn – Hà Nội</span><br>
+
+									<br><span>Hiện nay, Nhà trường có 54 phòng thí nghiệm, thực hành được trang bị các thiết bị hiện đại và 01 khu thực tập đường dây, trạm biến áp với diện tích 9.955m2với đầy đủ các tuyến đường dây từ 0,4kV đến 500kV đủ phục vụ cho tất cả các chuyên ngành như hệ thống điện, nhiệt điện, thuỷ điện, tự động hóa, điện tử viễn thông... Nhà trường đã đầu tư xây dựng 94 phòng học lý thuyết với diện tích 6.805 m2 trong đó được trang bị đầy đủ các thiết bị như máy chiếu, âm thanh và 01 thư viện điện tử với trên 13.000 đầu sách và rất nhiều đầu sách sách điện tử đã đáp ứng nhu cầu giảng dạy, học tập, nghiên cứu khoa học của CB GV và HSSV .</span><br>
+
+									<br><span>Ngoài ra nhà trường đã đầu tư xây dựng xong 02 khu làm việc hành chính được trang bị đầy đủ tiện nghi đáp ứng đủ nhu cầu làm việc của CBGV CNV; 02 khu ký túc xá sinh viên bao gồm 171 phòng với tổng diện tích là 4.494 m2; 02 khu thể thao đa năng với diện tích lên đến 11.985 m2 và 02 nhà ăn tập thể, trong đó 01 nhà ăn dành cho CBGV CNV và 01 nhà ăn dành cho HSSV;</span><br>
+
+									<br><span>Với năng lực của Trường, trong thời gian qua, Trường đã đào tạo hàng vạn cán bộ kỹ thuật cho Ngành và được các đơn vị đánh giá tốt. Nhiều sinh viên tốt nghiệp ra trường đã trở thành những cán bộ, kỹ thuật có năng lực và uy tín cao, một số trở thành cán bộ chủ chốt của địa phương và các đơn vị trong Ngành. Nhà trường đã vinh dự được Nhà nước tặng 01 huân chương Độc lập hạng Ba, 01 huân chương lao động hạng Nhất, 02 huân chương lao động hạng Nhì và 01 huân chương lao động hạng Ba.
+
+									</span><br></span>
+									<img src="../img/thongtinkhaiquat.jpg" alt="">
+									<span margin="center">Ảnh. Sân sau trường Đại học Điện lực</span><br>
+						
+					</div>
+			</div>
+		</div>
+			<div class="col-md-4 phai">
+					<div class="row"style="border-bottom:1px solid #f2dbdb;">
+						<h3>Giới Thiệu </h3>
+					</div>
+					<div class="row">
+						<ul style="list-style-type: none;width: 100%;" >
+							<li><a style="font-weight: bold;border-left: 2px solid black;padding-left: 0.5rem;" href="gioithieu_thongtinkhaiquat.html">Thông tin khái quát</a></li>
+							<li><a href="gioithieu_cocautochuc.html">Cơ cấu tổ chức</a></li>
+							<li><a href="gioithieu_hoidongtruong.html">Hội đồng trường</a></li>
+							<li><a  href="gioithieu_bangiamhieu.html">Ban giám hiệu</a>
+							</li>
+							<li><a href="gioithieu_baocaocongkhai.html">Báo cáo ba công khai</a></li>
+							<li><a  href="gioithieu_khaosatvieclamsinhvien.html">Khảo sát việc làm sinh viên</a></li>
+							
+						</ul>
+					</div>
+				
+			</div>
+		</div>
+	</div>
+</div>			
+
+<!-- end content -->
+
+<footer><!-- footer -->
+	<div class="row">
+		<div class="col-md-3" >
+			<img src="../img/logo.png" alt="" style="width: 100%;">
+			<p>Tổng lượt truy cập:1.534.959</p>
+			<p>Đang online:180</p>
+		</div>
+		<div class="col-md-4" >
+			<h4>ĐẠI HỌC ĐIỆN LỰC</h4>
+			<p>CS1:Hoàng Quốc Việt,Hà Nội</p>
+			<p style="margin-bottom: 1rem;">CS2:Tân Minh,Sóc Sơn,Hà Nội</p>
+			<p>ĐT TUYỂN SINH:(024) 2218 5607</p>
+			<p>ĐT Phòng HCQT:(024) 2218 5607</p>
+			<p>FAX:(024) 3836 2065</p>
+			<p>Email:info@epu.edu.vn</p>
+		</div>
+		<div class="col-md-5">
+			<h4>ĐƠN VỊ TRỰC THUỘC</h4>
+			<p>KHOA ĐÀO TẠO</p>
+			<p>PHÒNG BAN</p>
+			<p>TRUNG TÂM</p>
+			<div style="display: flex;">
+				<i class="fab fa-facebook-f"></i>
+				<i class="fab fa-twitter"></i>
+				<i class="fab fa-youtube"></i>
+			</div>
+		</div>
+	</div>
+</footer>
+<div class="end">
+	<div class="row">
+		<span>© 2006-2019 Đại Học Điện Lực.Đã đăng ký bản quyền.</span>
+		<a href="">| Điều khoản &amp; Điều kiện</a>
+		<a href="">Chính sách bảo mật</a>
+		<a href="">Sơ đồ trang</a>
+		<a href="">RSS</a>
+	</div>
+</div>
+
+<!--- Script Source Files -->
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script src="../bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+<script src="../js/main.js"></script>
+<!--- End of Script Source Files -->
+</body>
+</html>

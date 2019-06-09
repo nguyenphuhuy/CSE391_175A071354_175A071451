@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+
+	<link rel="stylesheet" href="../bootstrap-4.1.3-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+	    crossorigin="anonymous">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/bcck.css">
+</head>
+<body>
+		<div class="head_menu">
+		 <div class="head-nav input ">
+		 	<div class="row d-flex justify-content-end ">
+		 		<div class="pr-4 mt-3 a">
+		 			<a href="">SINH VIÊN</a>
+			 		<a href="">CÁN BỘ</a>
+			 		<img class="head_anh" src="../img/vietnam.jpg" alt="">
+			 		<img class="head_anh" src="../img/tienganh.jpg" alt="">
+		 		</div>
+		 		
+		  		<form class="form-inline">
+						<div class="col p-0 m-0 pr-4 mt-3">
+							<div class="input-group ">
+								<input style="height: 29px;width: 130px;background-color: #EBEBEB!important;color: #6A6A6A;" type="text" class="form-control bg-dark text-white" placeholder="Tìm kiếm">
+								<div class="input-group-prepend">
+									<div style="height: 29px;width: 30px;background-color: #DDDDDD!important;border-top-right-radius: 3px;border-bottom-right-radius: 3px;" class="input-group-text d-flex justify-content-center">
+										<i style="" class="fas fa-search fa-0x"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+				</form>
+		 	</div>
+		 	
+	  	</div>
+		<nav class="navbar navbar-expand-lg ">
+		  <a class="navbar-brand" href="index.html"><img style="margin-top: 1rem;" src="../img/logo.png"></a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="color: white;font-size: 2rem;" >
+		    <i class="fas fa-align-justify"></i>
+		  </button>
+		  
+		  <div class="d-flex justify-content-end top_head pr-4">
+		  		
+			  <div class="collapse navbar-collapse" id="navbarNav">
+			    <ul class="navbar-nav d-flex justify-content-end" style="width: 100%;">
+			    	
+			    <a href="index.html"><i class="fa fa-home fa-2x" aria-hidden="true" style=""></i></a>
+			    <li class="nav-item active">
+			      	<div id="accordion">
+
+				        <a class="nav-link default" href="gioithieu_gioithieu.html" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Giới thiệu <i class="fas fa-caret-down"></i></a>
+						<ul class="ul_con hidden_ul_con">
+							<li><a class="nav-link" href="gioithieu_thongtinkhaiquat.html">Thông tin khái quát</a></li>
+							<li><a class="nav-link" href="gioithieu_cocautochuc.html">Cơ cấu tổ chức</a></li>
+							<li><a class="nav-link" href="gioithieu_hoidongtruong.html">Hội đồng trường</a></li>
+							<li><a class="nav-link" href="gioithieu_baocaocongkhai.html">Báo cáo công khai</a></li>
+							<li><a class="nav-link" href="gioithieu_bangiamhieu.html">Ban giám hiệu</a></li>
+							<li><a class="nav-link" href="gioithieu_khaosatvieclamsinhvien.html">Khảo sát việc làm sinh viên</a></li>
+							
+						</ul>
+						<ul class="hidden" id="collapseOne" onclick="huy()" class="collapse"  data-parent="#accordion">
+							<li><a class="nav-link" href="gioithieu_thongtinkhaiquat.html">Thông tin khái quát</a></li>
+							<li><a class="nav-link" href="gioithieu_cocautochuc.html">Cơ cấu tổ chức</a></li>
+							<li><a class="nav-link" href="gioithieu_hoidongtruong.html">Hội đồng trường</a></li>
+							<li><a class="nav-link" href="gioithieu_baocaocongkhai.html">Báo cáo công khai</a></li>
+							<li><a class="nav-link" href="gioithieu_bangiamhieu.html">Ban giám hiệu</a></li>
+							<li><a class="nav-link" href="gioithieu_khaosatvieclamsinhvien.html">Khảo sát việc làm sinh viên</a></li>
+						</ul>
+					</div>
+			      </li>
+			      <li class="nav-item active">
+			      	<div id="accordion">
+
+				        <a class="nav-link default" href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">tuyển sinh <i class="fas fa-caret-down"></i></a>
+						<ul class="ul_con hidden_ul_con">
+							<li><a class="nav-link" href="tuyensinh_nghiencusinh.html">Nghiên cứ sinh</a></li>
+							<li><a class="nav-link" href="tuyensinh_caohoc.html">Cao học</a></li>
+							<li><a class="nav-link" href="tuyensinh_daihoc.html">Đại học</a></li>
+							<li><a class="nav-link" href="tuyensinh_lienthong.html">Liên thông</a></li>
+							<li><a class="nav-link" href="tuyensinh_vanbang2.html">Văn bằng 2</a></li>
+							<li><a class="nav-link" href="tuyensinh_caodang.html">Cao đẳng</a></li>
+							<li><a class="nav-link" href="tuyensinh_vhvl.html">Vừa học vừa làm</a></li>
+						</ul>
+						<ul class="hidden" id="collapseOne" onclick="huy()" class="collapse"  data-parent="#accordion">
+							<li><a class="nav-link" href="tuyensinh_nghiencusinh.html">Nghiên cứ sinh</a></li>
+							<li><a class="nav-link" href="tuyensinh_caohoc.html">Cao học</a></li>
+							<li><a class="nav-link" href="tuyensinh_daihoc.html">Đại học</a></li>
+							<li><a class="nav-link" href="tuyensinh_lienthong.html">Liên thông</a></li>
+							<li><a class="nav-link" href="tuyensinh_vanbang2.html">Văn bằng 2</a></li>
+							<li><a class="nav-link" href="tuyensinh_caodang.html">Cao đẳng</a></li>
+							<li><a class="nav-link" href="tuyensinh_vhvl.html">Vừa học vừa làm</a></li>
+						</ul>
+					</div>
+			      </li>
+
+			      <li class="nav-item active">
+			      	<div id="accordion">
+
+				        <a class="nav-link default" href="#" data-toggle="collapse" data-target="#collapseTwo" >Đào tạo <i class="fas fa-caret-down"></i></a>
+						<ul class="ul_con hidden_ul_con">
+							<li><a class="nav-link" href="daotao_daihoc.html">Đại học</a></li>
+							<li><a class="nav-link" href="daotao_lienthong.html">Liên thông</a></li>
+							<li><a class="nav-link" href="daotao_thacsi.html">Thạc sĩ</a></li>
+							<li><a class="nav-link" href="daotao_tiensi.html">Tiến sĩ</a></li>
+							<li><a class="nav-link" href="daotao_vanbang2.html">Văn bằng 2</a></li>
+						</ul>
+						<ul class="hidden" id="collapseTwo" onclick="huy()" class="collapse" data-parent="#accordion">
+							<li><a class="nav-link" href="daotao_daihoc.html">Đại học</a></li>
+							<li><a class="nav-link" href="daotao_lienthong.html">Liên thông</a></li>
+							<li><a class="nav-link" href="daotao_thacsi.html">Thạc sĩ</a></li>
+							<li><a class="nav-link" href="daotao_tiensi.html">Tiến sĩ</a></li>
+							<li><a class="nav-link" href="daotao_vanbang2.html">Văn bằng 2</a></li>
+						</ul>
+					</div>
+			      </li>
+
+			      <li class="nav-item active">
+			      	<div id="accordion">
+
+				        <a class="nav-link default" href="#" data-toggle="collapse" data-target="#collapseThree" >Nghiên cứu<i class="fas fa-caret-down"></i></a>
+						<ul class="ul_con hidden_ul_con">
+							<li><a class="nav-link" href="nghiencuu_detaikhoahoc.html">Đề tài khoa học</a></li>
+							<li><a class="nav-link" href="nghiencuu_cbkh.html">Công bố khóa học</a></li>
+							<li><a class="nav-link" href="nghiencuu_bmkh.html">Các biểu mẫu khoa học</a></li>
+							<li><a class="nav-link" href="http://khoahocnangluong.vn/">Tạp chí KH&CN năng lượng</a></li>
+						</ul>
+						<ul class="hidden" id="collapseThree" onclick="huy()" class="collapse" data-parent="#accordion">
+							<li><a class="nav-link" href="nghiencuu_detaikhoahoc.html">Đề tài khoa học</a></li>
+							<li><a class="nav-link" href="nghiencuu_cbkh.html">Công bố khóa học</a></li>
+							<li><a class="nav-link" href="nghiencuu_bmkh.html">Các biểu mẫu khoa học</a></li>
+							<li><a class="nav-link" href="http://khoahocnangluong.vn/">Tạp chí KH&CN năng lượng</a></li>
+						</ul>
+					</div>
+			      </li>
+
+			      <li class="nav-item active">
+			      	<div id="accordion">
+
+				        <a class="nav-link default" href="#" data-toggle="collapse" data-target="#collapseThree" >Hợp tác<i class="fas fa-caret-down"></i></a>
+						<ul class="ul_con hidden_ul_con">
+							<li><a class="nav-link" href="hoptac_hoptacquocte.html">Hợp tác quốc tế</a></li>
+							<li><a class="nav-link" href="hoptac_hoptacdoanhnghiep.html">Hợp tác doanh nghiệp</a></li>
+							
+						</ul>
+						<ul class="hidden" id="collapseThree" onclick="huy()" class="collapse" data-parent="#accordion">
+							<li><a class="nav-link" href="hoptac_hoptacquocte.html">Hợp tác quốc tế</a></li>
+							<li><a class="nav-link" href="hoptac_hoptacdoanhnghiep.html">Hợp tác doanh nghiệp</a></li>
+						</ul>
+					</div>
+			      </li>
+
+			      <li class="nav-item active">
+			      	<div id="accordion">
+
+				        <a class="nav-link default" href="lienhe.html" >LIÊN HỆ<i class="fas fa-caret-down"></i></a>
+						
+					</div>
+			      </li>
+			    </ul>
+			  </div>
+		  </div>
+		 
+		</nav>
+	</div>
+
+<!-- content -->
+<div class="tinhhinhkhaosat2018">
+		<div class="container">
+			<div class="row head_a" style="">
+				
+				</div>
+			
+			<div class="row">
+				<div class="col-md-8" >
+					<div class="rowdiv" style="border-bottom:1px solid #f2dbdb; ">
+				<h3>Báo cáo tình hình khảo sát việc làm năm 2017 (sinh viên tốt nghiệp 2016)</h3>
+					</div>
+
+					<br><span>Nhằm thực hiện mục tiêu nâng cao chất lượng đào tạo của nhà trường và quy chế dân chủ trong cơ sở giáo dục đào tạo; đồng thời thực hiện chức năng là đơn vị cầu nối giữa đào tạo với thực tiễn, đáp ứng các nhu cầu xã hội, Trường Đại học Điện lực đã tiến hành khảo sát tình hình việc làm của sinh viên tốt nghiệp bằng thứ nhất hệ đại học năm 2017 (sinh viên tốt nghiệp năm 2016) theo từng chuyên ngành đào tạo..</span><br>
+
+					<br><span>Kết quả khảo sát tỉ lệ việc làm của sinh viên sau khi tốt nghiệp là một trong các căn cứ để nhà trường nghiên cứu, điều chỉnh chỉ tiêu tuyển sinh, cơ cấu ngành đào tạo, đổi mới nội dung chương trình, phương pháp đào tạo phù hợp với nhu cầu thực tiễn; tăng cường các điều kiện nhằm nâng cao chất lượng đào tạo và tỷ lệ sinh viên tốt nghiệp có việc làm; đồng thời cũng là cơ sở để đăng ký chỉ tiêu tuyển sinh, đăng ký mở ngành đào tạo và phục vụ cho công tác quản lý, thanh tra, kiểm tra theo quy định</span><br>
+
+					<br><span>Xem chi tiết nội dung tại
+					 <a href="../pdf/BCKQ Khao sat viec lam SV tot nghiep_2016_4.pdf">đây</a></span> <br><br><br>
+
+				</div>
+				
+
+
+				<div class="col-md-4 phai">
+					<div class="row"style="border-bottom:1px solid #f2dbdb;">
+				<h3>Giới Thiệu </h3>
+					</div>
+					<div class="row">
+						<ul style="list-style-type: none;width: 100%;" >
+							<li><a href="gioithieu_thongtinkhaiquat.html">Thông tin khái quát</a></li>
+							<li><a href="gioithieu_cocautochuc.html">Cơ cấu tổ chức</a></li>
+							<li><a href="gioithieu_hoidongtruong.html">Hội đồng trường</a></li>
+							<li><a href="gioithieu_bangiamhieu.html">Ban giám hiệu</a>
+							</li>
+							<li><a href="gioithieu_baocaocongkhai.html">Báo cáo ba công khai</a></li>
+							<li><a href="gioithieu_khaosatvieclamsinhvien.html">Khảo sát việc làm sinh viên</a></li>
+					
+						</ul>
+					</div>
+
+						<div class="rowend">
+						    	<h3>Tin liên quan</h3>
+							            <ul class="categories" style="">
+							                    <li style="">
+							                        <a href="tinhinhkhaosat2016.html" style=""> Thông tin khảo sát việc làm năm 2016 (sinh viên tốt nghiệp năm 2015) </a>
+							                    </li>
+							                    <li style="">
+							                        <a href="tinhhinhkhaosat2018.html" style=""> Thông tin khảo sát việc làm năm 2018 (sinh viên tốt nghiệp năm 2017) </a>
+							                    </li>
+							            </ul>
+
+							</div>
+				</div>
+
+				</div>
+		</div>
+	</div>
+</div>	
+
+
+<!-- end content -->
+
+<footer><!-- footer -->
+	<div class="row">
+		<div class="col-md-3" >
+			<img src="../img/logo.png" alt="" style="width: 100%;">
+			<p>Tổng lượt truy cập:1.534.959</p>
+			<p>Đang online:180</p>
+		</div>
+		<div class="col-md-4" >
+			<h4>ĐẠI HỌC ĐIỆN LỰC</h4>
+			<p>CS1:Hoàng Quốc Việt,Hà Nội</p>
+			<p style="margin-bottom: 1rem;">CS2:Tân Minh,Sóc Sơn,Hà Nội</p>
+			<p>ĐT TUYỂN SINH:(024) 2218 5607</p>
+			<p>ĐT Phòng HCQT:(024) 2218 5607</p>
+			<p>FAX:(024) 3836 2065</p>
+			<p>Email:info@epu.edu.vn</p>
+		</div>
+		<div class="col-md-5">
+			<h4>ĐƠN VỊ TRỰC THUỘC</h4>
+			<p>KHOA ĐÀO TẠO</p>
+			<p>PHÒNG BAN</p>
+			<p>TRUNG TÂM</p>
+			<div style="display: flex;">
+				<i class="fab fa-facebook-f"></i>
+				<i class="fab fa-twitter"></i>
+				<i class="fab fa-youtube"></i>
+			</div>
+		</div>
+	</div>
+</footer>
+<div class="end">
+	<div class="row">
+		<span>© 2006-2019 Đại Học Điện Lực.Đã đăng ký bản quyền.</span>
+		<a href="">| Điều khoản &amp; Điều kiện</a>
+		<a href="">Chính sách bảo mật</a>
+		<a href="">Sơ đồ trang</a>
+		<a href="">RSS</a>
+	</div>
+</div>
+
+<!--- Script Source Files -->
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script src="../bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+<script src="../js/main.js"></script>
+<!--- End of Script Source Files -->
+</body>
+</html>

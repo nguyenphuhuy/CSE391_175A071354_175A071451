@@ -1,0 +1,2 @@
+﻿1)mở menu khi responsive từ dưới lên trên
+2)nói về style cho pagination ở tuyensinh
