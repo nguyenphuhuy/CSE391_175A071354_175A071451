@@ -51,7 +51,7 @@
                         </li>
                         <li class="divider"></li>
                         <li>
-                            <a href="logout.php"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                            <a href="login.html"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
                         </li>
                     </ul>
                 </li>
@@ -105,6 +105,16 @@
                             <h3 id="result"></h3>
                             <h2>Thêm mới bài viết</h2>
                             <div class="form-group">
+                                <label>Danh Mục</label>
+                                <select name="" id="cate" class="form-control">
+                                    <option value="">--Chọn--</option>
+                                    <option value="1">Tuyển sinh</option>
+                                    <option value="2">Giới thiệu</option>
+                                    <option value="3">Đào tạo</option>
+                                    <option value="4">Nghiên cứu</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
                                 <label>Tên bài viết</label>
                                 <input type="text" id="name"  placeholder="Tên bài viết" class="form-control" value="">
                             </div>
@@ -134,6 +144,10 @@
                     
                 </div>
                <div id="noidung" style="display: none;">
+                            <div class="form-group">
+                                <label>Danh mục</label>
+                                <p id="danhmuc_noidung"></p>
+                            </div>
                             <div class="form-group">
                                 <label>Tên bài viết</label>
                                 <p id="name_noidung"></p>

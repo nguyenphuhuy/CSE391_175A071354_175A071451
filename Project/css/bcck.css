@@ -473,7 +473,7 @@
 	padding-bottom: .5rem;
 	margin-bottom: 0rem;
 	margin-top: 0px;
-    font-weight: 600;
+    font-size: 150% !important;
     margin-right: 30px;
 }
 .lienhe h3{
@@ -488,8 +488,13 @@
 	padding: 0px;
 	margin-bottom: 1.5rem;
 }
+.sua_1:hover{
+	background-color: #ee044a !important;
+}
 
-
+.sua_1{
+	background-color: #002147;
+}
 
 
 

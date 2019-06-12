@@ -24,7 +24,7 @@ body {
 #page-wrapper {
     width: fit-content;
     min-width: 100%;
-	height:1300px !important;
+	min-height:1300px !important;
     padding: 0;
     background-color: #fff;
 }

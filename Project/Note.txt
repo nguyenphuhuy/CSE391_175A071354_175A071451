@@ -1,2 +1,4 @@
 ﻿1)mở menu khi responsive từ dưới lên trên
 2)nói về style cho pagination ở tuyensinh
+3) bấm giới thiệu : cơ cấu tổ chức
++)báo cáo công khai rồi chuyển
